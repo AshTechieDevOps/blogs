@@ -20,7 +20,7 @@ linkedin_username: "ashish-sharma-51b3a19"
 #########################################################################################
 theme: "minima"
 
-rss: ashish@ashtechie.com
+rss: rss
 
 kramdown:
   syntax_highlighter_opts:
