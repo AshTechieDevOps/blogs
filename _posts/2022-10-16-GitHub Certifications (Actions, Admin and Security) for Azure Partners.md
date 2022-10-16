@@ -68,6 +68,7 @@ Happy learning GitHub and good luck on earning these certifications if you are l
 
 ## About the Author
 ![ashtechiefinallogo](https://user-images.githubusercontent.com/110538923/196060242-9076fe6b-a236-43b9-bdf7-0d5f1e0b5a8d.png)
+
 I`m Ashish Sharma who brings 24+ Years of Mix & Match Experience of Designing and Architecting Wintel, VMware DCV/NSX/vRO/vRA/vRops, Azure Cloud, Microsoft Cybersecurity, Azure DevOps, AWS, and Google Cloud Solutions offerings.
 
 I am an Expert of Infrastructure as Code using Terraform, Code as Infrastructure (Reverse Terraforming), ARM, Azure Bicep, JSON, AWS CloudFormation, Automation using GitHub Actions, YAML, Jenkins, PowerShell, Azure PowerShell, Configuration Management using Ansible etc. I have very good understanding of Microservices, Containerization aka Open-Source Kubernetes, Docker, Tanzu Grid Cluster and have good knowledge of Scrum, Kanban and other Agile and Project Management tools and methodologies like Microsoft Projects & Jira etc. I am currently exploring “Artificial Intelligence for IT Operations (AIOps)”, specifically Moogsoft.
