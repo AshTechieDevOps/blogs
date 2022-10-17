@@ -4,25 +4,27 @@ Categories: VMWare Cloud, Google VMWare Cloud Engine, VMWare Solution on Google 
 
 ![GCVE](https://user-images.githubusercontent.com/110538923/196079306-9635ad33-4f90-4f7c-a9be-11a7a0576621.PNG)
 
+
 Google Cloud VMware Engine reached its two-year anniversary this summer and continues to help customers across many industries speed their cloud transformation journeys. Today I will share the latest capabilities of Google Cloud VMware Engine to support customers in migrating to the cloud and modernizing their infrastructure and applications according to their timeline. You will learn how Google Cloud VMware Engine provides options for running both VMs and containers on the same infrastructure, provides new enterprise capabilities, continues to expand regionally, and more.
 
 I am pleased to announce VMware Tanzu Standard edition on Google Cloud VMware Engine to help simplify Kubernetes adoption and management. With this solution, enterprises can accelerate application and infrastructure modernization by quickly adopting containers and Kubernetes technologies with an enterprise-grade, open-source aligned, full Kubernetes runtime platform on top of Google Cloud VMware Engine. VMware Tanzu Standard is sold and supported directly by VMware.
 
+
 ## Tanzu Standard includes:
 
--	    VMware Tanzu Mission Control, a global control plane, to enable consistent and efficient management of Kubernetes clusters deployed across multiple infrastructure types.
+-   VMware Tanzu Mission Control, a global control plane, to enable consistent and efficient management of Kubernetes clusters deployed across multiple infrastructure types.
 
--     VMware Tanzu Kubernetes Grid (TKG), which can be deployed on-prem on vSphere, in public clouds, and at the edge. Tanzu Kubernetes Grid provides consistent, enterprise-grade Kubernetes clusters for you to run your modern applications wherever necessary to accommodate business, technical, or compliance requirements.
+-   VMware Tanzu Kubernetes Grid (TKG), which can be deployed on-prem on vSphere, in public clouds, and at the edge. Tanzu Kubernetes Grid provides consistent, enterprise-grade Kubernetes clusters for you to run your modern applications wherever necessary to accommodate business, technical, or compliance requirements.
 
 ## With Tanzu Standard on Google Cloud VMware Engine, you can:
 
--     Run your VMs and containers on the same infrastructure with a single point of governance.
+-   Run your VMs and containers on the same infrastructure with a single point of governance.
 
--     Migrate easily with speed, enhance your apps, and run both VMs and containers on Google Cloud VMware Engine, and get private, high-bandwidth, low-latency access to innovative Google Cloud services to gain data-driven insights.
+-   Migrate easily with speed, enhance your apps, and run both VMs and containers on Google Cloud VMware Engine, and get private, high-bandwidth, low-latency access to innovative Google Cloud services to gain data-driven insights.
 
--     Deploy a consistent Kubernetes distribution across environments and manage all the clusters via a single control plane.
+-   Deploy a consistent Kubernetes distribution across environments and manage all the clusters via a single control plane.
 
--     Gain flexibility and control and meet security and compliance requirements.
+-   Gain flexibility and control and meet security and compliance requirements.
 
     Next, here are other recent improvements.
 
@@ -42,25 +44,25 @@ Users will be able to enable automation at scale for Google Cloud VMware Engine 
 
 Google Cloud offers regions worldwide to provide customers with global coverage, low cost, low latency, and application availability. Google Cloud VMware Engine nodes are now available in these additional regions and zones:
 
--     New regions: Zurich, Switzerland, Europe (europe-west6); Toronto, Ontario, North America (northamerica-northeast2).
+-   New regions: Zurich, Switzerland, Europe (europe-west6); Toronto, Ontario, North America (northamerica-northeast2).
 
--     Additional zones: Ashburn, Northern Virginia, North America (us-east4-b); Sydney, Australia, APAC (australia-southeast1-b).
+-   Additional zones: Ashburn, Northern Virginia, North America (us-east4-b); Sydney, Australia, APAC (australia-southeast1-b).
 
--     Additional regions* are expected in 2023 in Asia, Europe, and South America.
+-   Additional regions* are expected in 2023 in Asia, Europe, and South America.
 
 ## VMware HCX Enterprise now included
 
 Google Cloud VMware Engine now leverages the HCX Enterprise license level by default, enabling the following premium HCX features:
 
--     HCX Replication Assisted vMotion (bulk, no-downtime migration).
+-   HCX Replication Assisted vMotion (bulk, no-downtime migration).
 
--     Migrations from KVM and Hyper-V to vSphere.
+-   Migrations from KVM and Hyper-V to vSphere.
 
--     Traffic engineering.
+-   Traffic engineering.
 
--     Mobility groups.
+-   Mobility groups.
 
--     Mobility-optimized networking.
+-   Mobility-optimized networking.
 
 ## Custom core counts
 
@@ -74,11 +76,11 @@ You can deploy an SDDC (or private cloud) with a single node for testing and pro
 
 Google and VMware are working on a roadmap to improve scale, availability, and compliance:
 
--     Increasing scale from up to 64 nodes per private cloud to a maximum of 96 nodes per private cloud. This would enable larger customer environments to be supported with the same highly performant dedicated infrastructure and would increase operational efficiency by managing such large environments with a single vCenter server.
+-    Increasing scale from up to 64 nodes per private cloud to a maximum of 96 nodes per private cloud. This would enable larger customer environments to be supported      with the same highly performant dedicated infrastructure and would increase operational efficiency by managing such large environments with a single vCenter          server.
 
--     With stretched clusters, a cluster would be deployed across two availability zones in a region, with synchronous replication, enabling higher levels of availability and failure independence.
+-    With stretched clusters, a cluster would be deployed across two availability zones in a region, with synchronous replication, enabling higher levels of                availability and failure independence.
 
--     Working on adding more compliance certifications – SOC1, Information System Security Management and Assessment Program (ISMAP), and BSI:C5.
+-    Working on adding more compliance certifications – SOC1, Information System Security Management and Assessment Program (ISMAP), and BSI:C5.
 
 I’ve shared the latest capabilities of Google Cloud VMware Engine to support customers in migrating to the cloud and modernizing their infrastructure and applications according to their timeline.
 
