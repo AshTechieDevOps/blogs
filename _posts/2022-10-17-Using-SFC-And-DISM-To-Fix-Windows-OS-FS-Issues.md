@@ -6,7 +6,7 @@ Categories: Windows, System File Checker, Windows OS Deployment Image Cleanup an
 
 ## Summary
 
-System file check is a utility built into the Operating System that will check for system file corruption. The sfc /scannow command (System File Check) scans the integrity of all protected operating system files and replaces incorrect, corrupted, changed, or damaged versions with the correct versions where possible. When it cannot repair the damage DISM (Deployment Image Servicing and Management) should be run to fix as many errors as possible.
+System file check is a utility built into the Operating System that will check for system file corruption. The sfc /scannow command (System File Check) scans the integrity of all protected operating system files and replaces incorrect, corrupted, changed, or damaged versions with the correct versions where possible. When it cannot repair the damage, then DISM (Deployment Image Servicing and Management) should be run to fix as many errors as possible.
 
 ## To run a system file check (SFC)
 
