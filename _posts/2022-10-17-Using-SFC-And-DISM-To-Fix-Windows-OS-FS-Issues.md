@@ -1,4 +1,4 @@
-## Using System file check (SFC) Scan and Repair System Files & DISM to fix the things that SFC cannot.
+## Using System file check (SFC) Scan and Repair System Files and to use  DISM to fix the things that SFC cannot.
 
 Written By Ashish Sharma | Oct 17, 2022
 Categories: Windows, System File Checker, Windows OS Deployment Image Cleanup and Restore
