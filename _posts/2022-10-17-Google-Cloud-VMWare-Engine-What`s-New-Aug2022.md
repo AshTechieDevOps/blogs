@@ -7,7 +7,7 @@ Categories: VMWare Cloud, Google VMWare Cloud Engine, VMWare Solution on Google 
 
 Google Cloud VMware Engine reached its two-year anniversary this summer and continues to help customers across many industries speed their cloud transformation journeys. Today I will share the latest capabilities of Google Cloud VMware Engine to support customers in migrating to the cloud and modernizing their infrastructure and applications according to their timeline. You will learn how Google Cloud VMware Engine provides options for running both VMs and containers on the same infrastructure, provides new enterprise capabilities, continues to expand regionally, and more.
 
-I am pleased to announce VMware Tanzu Standard edition on Google Cloud VMware Engine to help simplify Kubernetes adoption and management. With this solution, enterprises can accelerate application and infrastructure modernization by quickly adopting containers and Kubernetes technologies with an enterprise-grade, open-source aligned, full Kubernetes runtime platform on top of Google Cloud VMware Engine. VMware Tanzu Standard is sold and supported directly by VMware.
+I am pleased to see that VMware Tanzu Standard edition on Google Cloud VMware Engine to help simplify Kubernetes adoption and management. With this solution, enterprises can accelerate application and infrastructure modernization by quickly adopting containers and Kubernetes technologies with an enterprise-grade, open-source aligned, full Kubernetes runtime platform on top of Google Cloud VMware Engine. VMware Tanzu Standard is sold and supported directly by VMware.
 
 
 ## Tanzu Standard includes:
