@@ -64,7 +64,7 @@ vSphere 8 internal benchmarking study running Redis on a DPU-enabled host achiev
 
 Moreover, with vSphere 8 IT admins can reduce operational overhead of operating DPUs in the infrastructure by leveraging integrated vSphere workflows to manage lifecycle and monitor performance.
 
-I am thrilled to note that our technology partnerships have produced market ready end-to-end solutions. Today, Dell Technologies announced the launch of SmartDPU Software Solutions on the VxRailTM   platform with a choice of DPUs from AMD Pensando and NVIDIA. HPE announced the launch of HPE ProLiant with VMware vSphere® Distributed Services Engine™ – based on DPUs from AMD Pensando. We are also excited about the rapid progress that our other partners like Lenovo and Intel are making in bringing more solutions to the market, providing even more choices for our customers.
+I am thrilled to note that our technology partnerships have produced market ready end-to-end solutions. Today, Dell Technologies announced the launch of SmartDPU Software Solutions on the VxRailTM   platform with a choice of DPUs from AMD Pensando and NVIDIA. HPE announced the launch of HPE ProLiant with VMware vSphere® Distributed Services Engine™ – based on DPUs from AMD Pensando. VMWare is also excited about the rapid progress of their other partners like Lenovo and Intel are making in bringing more solutions to the market, providing even more choices for their customers.
 
 ![vSphere8_5](https://user-images.githubusercontent.com/110538923/196092436-e7eaf835-d626-42b7-8fa9-1855814e3f62.PNG)
 
