@@ -20,7 +20,7 @@ linkedin_username: "ashish-sharma-51b3a19"
 #########################################################################################
 theme: "minima"
 
-rss: <a class="btn btn-rss" href="/feed.xml" target="_blank">RSS</a>
+rss: rss
 
 kramdown:
   syntax_highlighter_opts:
@@ -31,8 +31,8 @@ plugins:
 title: AshTechie Blogs
 description: AshTechie Blog Portal
 author: Ashish Sharma
-  - jekyll-sitemap
 
+  - jekyll-sitemap
 titles_from_headings:
   strip_title: true
   collections: true
@@ -43,4 +43,5 @@ defaults:
       type: post
     values:
       tags: Other
+
 
