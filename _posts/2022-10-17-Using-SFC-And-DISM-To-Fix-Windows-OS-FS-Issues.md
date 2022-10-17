@@ -1,11 +1,11 @@
 ## Using System file check (SFC) Scan and Repair System Files and to use  DISM to fix the things that SFC cannot.
 
 Written By Ashish Sharma | Oct 17, 2022
-Categories: Windows, System File Checker, Windows OS Deployment Image Cleanup and Restore
+Categories: Windows, System File Checker, Windows OS Deployment Image Cleanup and Restore.
 
 ## Summary
 
-System file check is a utility built into the Operating System that will check for system file corruption The sfc /scannow command (System File Check) scans the integrity of all protected operating system files and replaces incorrect, corrupted, changed, or damaged versions with the correct versions where possible.  When it cannot repair the damage DISM should be run to fix as many errors as possible.
+System file check is a utility built into the Operating System that will check for system file corruption. The sfc /scannow command (System File Check) scans the integrity of all protected operating system files and replaces incorrect, corrupted, changed, or damaged versions with the correct versions where possible. When it cannot repair the damage DISM (Deployment Image Servicing and Management) should be run to fix as many errors as possible.
 
 ## To run a system file check (SFC)
 
