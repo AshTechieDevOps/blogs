@@ -31,7 +31,7 @@ plugins:
 title: AshTechie Blogs
 description: AshTechie Blog Portal
 author: Ashish Sharma
-
+  - jekyll-seo-tag
   - jekyll-sitemap
 titles_from_headings:
   strip_title: true
