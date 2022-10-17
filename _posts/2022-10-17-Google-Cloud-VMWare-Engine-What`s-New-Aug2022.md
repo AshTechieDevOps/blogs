@@ -2,9 +2,11 @@
 Written By Ashish Sharma | Oct 17, 2022
 Categories: VMWare Cloud, Google VMWare Cloud Engine, VMWare Solution on Google Cloud Plateform
 
+![GCVE](https://user-images.githubusercontent.com/110538923/196079306-9635ad33-4f90-4f7c-a9be-11a7a0576621.PNG)
+
 Google Cloud VMware Engine reached its two-year anniversary this summer and continues to help customers across many industries speed their cloud transformation journeys. Today I will share the latest capabilities of Google Cloud VMware Engine to support customers in migrating to the cloud and modernizing their infrastructure and applications according to their timeline. You will learn how Google Cloud VMware Engine provides options for running both VMs and containers on the same infrastructure, provides new enterprise capabilities, continues to expand regionally, and more.
 
-First, we are pleased to announce VMware Tanzu Standard edition on Google Cloud VMware Engine to help simplify Kubernetes adoption and management. With this solution, enterprises can accelerate application and infrastructure modernization by quickly adopting containers and Kubernetes technologies with an enterprise-grade, open-source aligned, full Kubernetes runtime platform on top of Google Cloud VMware Engine. VMware Tanzu Standard is sold and supported directly by VMware.
+I am pleased to announce VMware Tanzu Standard edition on Google Cloud VMware Engine to help simplify Kubernetes adoption and management. With this solution, enterprises can accelerate application and infrastructure modernization by quickly adopting containers and Kubernetes technologies with an enterprise-grade, open-source aligned, full Kubernetes runtime platform on top of Google Cloud VMware Engine. VMware Tanzu Standard is sold and supported directly by VMware.
 
 ## Tanzu Standard includes:
 
@@ -80,4 +82,16 @@ Google and VMware are working on a roadmap to improve scale, availability, and c
 
 I’ve shared the latest capabilities of Google Cloud VMware Engine to support customers in migrating to the cloud and modernizing their infrastructure and applications according to their timeline.
 
+## About the Author
+![ashtechiefinallogo](https://user-images.githubusercontent.com/110538923/196060242-9076fe6b-a236-43b9-bdf7-0d5f1e0b5a8d.png)
 
+I`m Ashish Sharma who brings 24+ Years of Mix & Match Experience of Designing and Architecting Wintel, VMware DCV/NSX/vRO/vRA/vRops, Azure Cloud, Microsoft Cybersecurity, Azure DevOps, AWS, and Google Cloud Solutions offerings.
+
+I am an Expert of Infrastructure as Code using Terraform, Code as Infrastructure (Reverse Terraforming), ARM, Azure Bicep, JSON, AWS CloudFormation, Automation using GitHub Actions, YAML, Jenkins, PowerShell, Azure PowerShell, Configuration Management using Ansible etc. I have very good understanding of Microservices, Containerization aka Open-Source Kubernetes, Docker, Tanzu Grid Cluster and have good knowledge of Scrum, Kanban and other Agile and Project Management tools and methodologies like Microsoft Projects & Jira etc. I am currently exploring “Artificial Intelligence for IT Operations (AIOps)”, specifically Moogsoft.
+
+I do have sound knowledge of Cisco InterSight along with Cisco UCS, Hyperflex, Dell EMC VXRail and other Hyperconverged, Converged & Bare Metal Server Hardware. I have major expertise in Solution Designing of Datacenter and Network Virtualization using VMware vSphere, On-Premises to On-Premises and On-Premises to Cloud Migration & Transformation, Automated & Scripted Migration. I have also taken care of a variety of Greenfield and Brownfield Infrastructure Design, Management, and Security Compliance requirements.
+
+### Contact me
+
+ **⌨️**  [GitHub](https://github.com/ashtechiedevops/) / [LinkedIn](https://www.linkedin.com/in/ashish-sharma-51b3a19/) / [Website](https://ashtechie.com/) / [Twitter](https://twitter.com/ashtechie777/) / [Instagram](https://www.instagram.com/ashtechieworld/)
+ 
