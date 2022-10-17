@@ -28,6 +28,9 @@ kramdown:
     
 plugins:
   - jekyll-feed
+title: AshTechie Blogs
+description: Welcome to the AshTechie World!
+author: Ashish Sharma
   - jekyll-sitemap
 
 titles_from_headings:
