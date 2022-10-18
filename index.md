@@ -1,6 +1,6 @@
 ## Welcome to the AshTechie World!
 
-image: ![ashtechiefinallogo](https://user-images.githubusercontent.com/110538923/196057693-c0ef97e0-a207-4a5b-9712-480f63d760d6.png)
+![ashtechiefinallogo](https://user-images.githubusercontent.com/110538923/196057693-c0ef97e0-a207-4a5b-9712-480f63d760d6.png)
 
 Hi ![image](https://user-images.githubusercontent.com/110538923/194757110-0b6ad973-0339-4886-9105-5ade7d4c30b7.png) There,
 
