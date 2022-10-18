@@ -7,7 +7,7 @@ Categories: DevOps, DevOps Learning Path.
 ![DevOps3](https://user-images.githubusercontent.com/110538923/196544552-28170757-de69-47c2-9d1c-08dda0d48bfc.png)
 
 
-## This blog is for those who really want to learn Devops, my advice in a few key areas they can focus on.
+## This blog post is for those who really want to learn Devops, my advice in a few key areas they can focus on.
 
 
 ## Learn a Programming Language:-
