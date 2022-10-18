@@ -5,7 +5,7 @@ Written By Ashish Sharma | Oct 17, 2022
 Categories: DevOps, DevOps Learning Path.
 
 
-## This blog post is for those who really want to learn Devops, my advice in a few key areas they can focus on.
+## I have written this blog post for those who are willing to learn and understand the concept, model & the most common tools they need to learn to get themselves DevOpsified!
 
 
 ## Concept – What is DevOps?
