@@ -28,11 +28,20 @@ kramdown:
     
 plugins:
   - jekyll-feed
-title: AshTechie Blogs
-description: AshTechie Blog Portal
-author: Ashish Sharma
-  - jekyll-seo-tag
+title: "AshTechie Blogs"
+description: "AshTechie Blog Portal"
+author: "Ashish Sharma"
+
   - jekyll-sitemap
+title: "AshTechie Blogs"
+description: "AshTechie Blog Portal"
+author: "Ashish Sharma"
+  
+  - jekyll-seo-tag
+title: "AshTechie Blogs"
+description: "AshTechie Blog Portal"
+author: "Ashish Sharma"
+    {% seo %}
 titles_from_headings:
   strip_title: true
   collections: true
@@ -42,6 +51,6 @@ defaults:
       path: ""
       type: post
     values:
-      tags: Other
+      tags: miscellaneous
 
 
