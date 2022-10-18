@@ -1,7 +1,7 @@
 ## Gain a Global Reach by Taking the Azure ExpressRoute
 
 Written By Ashish Sharma | Oct 17, 2022
-Categories: Azure Cloud, Azure Cloud Networking, Azure Express Route
+Categories: Azure Cloud, Azure Cloud Networking, Azure Express Route, Global Reach.
 
 What is ExpressRoute Global Reach? How does it work and how does it compare with other connectivity options like VNet Peering and Cross-Connections? Why would I need Global Reach? Let's answer all of these questions and more.
 
