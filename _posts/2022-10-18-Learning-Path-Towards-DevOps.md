@@ -1,11 +1,10 @@
-
 ## Learning Path Towards DevOps
 
 Written By Ashish Sharma | Oct 17, 2022
 
 Categories: DevOps, DevOps Learning Path.
 
-![DevOps2](https://user-images.githubusercontent.com/110538923/196543483-897667b0-cbc0-4b5a-a492-76f6495150de.png)
+![DevOps3](https://user-images.githubusercontent.com/110538923/196544552-28170757-de69-47c2-9d1c-08dda0d48bfc.png)
 
 ## This blog is for those who really want to learn Devops, my advice in a few key areas they can focus on.
 
@@ -27,7 +26,7 @@ Categories: DevOps, DevOps Learning Path.
 
 ## Stick to One Cloud Provider but choice is always yours:-
 
-## Since we’ve covered the basics, we can start looking at the nice shiny tools that are a staple of DevOps, such as cloud providers. To gain more than just a foundational knowledge, you’ll want to pick one cloud provider to concentrate on and stick to it, (The skills you learn here will make your transition much easier when exploring other provider options). A personal example of mine is that a few years back I began learning AWS, which offers an endless amount of cloud services. I focused on the most common services such as IaaS and PaaS, then took those skills with me into Microsoft Azure and Google Cloud Platform. The great thing here is that each of the big cloud providers offer a free tier, which enables you to get your hands dirty and gain the experience without financially committing to one provider.
+## Since we’ve covered the basics, we can start looking at the nice shiny tools that are a keys of DevOps, such as cloud providers. To gain more than just a foundational knowledge, you’ll want to pick one cloud provider to concentrate on and stick to it, (The skills you learn here will make your transition much easier when exploring other provider options). A personal example of mine is that a few years back I began learning AWS, which offers an endless amount of cloud services. I focused on the most common services such as IaaS and PaaS, then took those skills with me into Microsoft Azure and Google Cloud Platform. The great thing here is that each of the big cloud providers offer a free tier, which enables you to get your hands dirty and gain the experience without financially committing to one provider.
 
 ## Use Git Effectively:-
 
