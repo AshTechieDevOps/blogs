@@ -1,5 +1,4 @@
 ## Learning Path Towards DevOps
-
 Written By Ashish Sharma | Oct 17, 2022
 
 Categories: DevOps, DevOps Learning Path.
