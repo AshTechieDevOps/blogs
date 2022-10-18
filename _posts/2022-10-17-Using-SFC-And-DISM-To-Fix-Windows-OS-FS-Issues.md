@@ -2,7 +2,7 @@
 
 Written By Ashish Sharma | Oct 17, 2022
 
-Categories: Windows, System File Checker, Windows OS Deployment Image Cleanup and Restore.
+Categories: Windows File System , System File Checker, Windows OS Deployment Image Cleanup and Restore.
 
 ## Summary
 
