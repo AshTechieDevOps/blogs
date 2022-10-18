@@ -41,7 +41,7 @@ author: "Ashish Sharma"
 title: "AshTechie Blogs"
 description: "AshTechie Blog Portal"
 author: "Ashish Sharma"
-    {% seo %}
+    
 titles_from_headings:
   strip_title: true
   collections: true
