@@ -1,13 +1,35 @@
-## Learning Path Towards DevOps
+# Learning Path Towards DevOps
 
 Written By Ashish Sharma | Oct 17, 2022
 
 Categories: DevOps, DevOps Learning Path.
 
+
+## This blog post is for those who really want to learn Devops, my advice in a few key areas they can focus on.
+
+
+## Concept – What is DevOps?
+
+
+-   DevOps is a term derived from the combination of “development” and “operations” that represents an engineering philosophy consisting of a collaborative approach
+    between the software development (Dev) team and the software operations (Ops) team.
+
+-   In its broadest meaning, DevOps is a Culture. The aim of this type of methodology is to increase communication and trust between developers and system
+    administrators, i.e. to integrate the operations and development departments. Nowadays we use agile methodologies and we integrate ourselves in all stages of the
+    application lifecycle to deliver products as quickly as possible and manage all incidents that may arise to make the appropriate corrections in each situation. 
+
+
+## DevOps model
+
+
+-   With a DevOps model, the development process, from the idea to the software in production, provides organisations an increased organisational capacity when
+    developing an application and, as a consequence, offers an increase in speed and added value that allows companies to compete more efficiently.
+
+
 ![DevOps3](https://user-images.githubusercontent.com/110538923/196544552-28170757-de69-47c2-9d1c-08dda0d48bfc.png)
 
 
-## This blog post is for those who really want to learn Devops, my advice in a few key areas they can focus on.
+# What You Need to Learn to get Yourself DevOpsifiled?
 
 
 ## Learn a Programming Language:-
@@ -16,6 +38,8 @@ Categories: DevOps, DevOps Learning Path.
 -   If you’re like me, with no programming experience, you may be overwhelmed by the sheer amount of programming languages that are out there. For DevOps, my advice would be to pick one of these languages: Python, NodeJS, or Ruby. While it’s important to have a fundamental understanding of all three, you’ll need to be comfortable with at least one in order to progress your understanding of DevOps. 
 
 -   While there is no right or wrong choice when choosing a language, Python is easily the most popular. My recommendation to anyone just beginning to dip their toe into the ocean of programming is to first find a few good videos or written resources that you’ll be able to reference. Afterwards, jump right in. From my experience, the best way to learn programming is to get hands-on and start creating.
+
+-   In DevOps practices, to establish a correct link between development and operations, DevOps engineers have to carry out different specific techniques. Some of the most recommended for the implementation of the aforementioned concepts are continuous integration and deployment, APIs or microservices, monitoring, systems as a code, communication, and collaboration. With all this, development and operations engineers will be much more efficient when working on any project and, therefore, it will make it faster to develop the overall application as a whole.
 
 
 ## Know Linux Basics:-
