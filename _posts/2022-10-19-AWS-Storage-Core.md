@@ -230,6 +230,37 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 <img width="646" alt="AWSCore7" src="https://user-images.githubusercontent.com/110538923/196713748-c3d520b3-7f4b-4440-9a63-92f4b2667586.PNG">
 
+### AWS offers services that are designed to provide edge and hybrid cloud solutions. Edge compute and storage solutions for remote or disconnected locations and hybrid solutions to connect your on-premises infrastructure to storage services in the AWS Cloud.
+
+### Edge - Local Compute and Storage
+
+#### With edge location compute and storage services, you can use compute resources and storage services even when disconnected from the AWS Cloud. They also provide a data transfer platform to copy your data in to and out from the AWS Cloud. You can transfer your data by shipping the devices to AWS for import or use the device as a remote data synchronization client. 
+
+#### Edge location devices include the AWS Snow Family of products: AWS Snowball devices, AWS Snowcone devices, and AWS Snowmobile service.
+
+#### AWS Snowball is an edge computing, data migration, and edge storage device. You can use these devices for the following:-
+
+-   Data collection
+-   Machine learning and processing
+-   Storage in environments with intermittent connectivity or in remote disconnected locations
+
+#### Snowball Edge comes in two options: Storage Optimized for the highest storage capacity and Compute Optimized for more available vCPUs with a lower storage capacity.
+
+#### AWS Snowcone is the smallest member of the AWS Snow Family of edge computing, edge storage, and data transfer devices, weighing in at 4.5 pounds (2.1 kg). Snowcone is ruggedized, secure, and purpose-built for use outside of a traditional data center.
+
+#### AWS Snowmobile is an exabyte-scale data transfer service used to move large amounts of data to AWS. You can transfer up to 100 PB per Snowmobile, a 45-foot long ruggedized shipping container, pulled by a semitrailer truck. Snowmobile makes it easy to move massive volumes of data to the cloud, including video libraries, image repositories, or even a complete data center migration.
+
+### Hybrid - On-Premises Cloud Storage
+
+#### On-premises cloud storage is provided as part of an AWS Outposts implementation and includes Amazon EBS and Amazon S3 storage services. 
+
+#### AWS Outposts is a fully managed service that offers the same AWS infrastructure, AWS services, APIs, and tools to virtually any data center, colocation space, or on-premises facility. These capabilities provide a consistent hybrid experience. AWS Outposts is ideal for the following:-
+
+-   Workloads that require low latency access to on-premises systems, local data processing, and data residency
+-   Migration of applications with local system interdependencies
+
+#### AWS compute, storage, database, and other services run locally on Outposts. You can access the full range of AWS services available in the Region to build, manage, and scale your on-premises applications using familiar AWS services and tools.
+
 
 
 
