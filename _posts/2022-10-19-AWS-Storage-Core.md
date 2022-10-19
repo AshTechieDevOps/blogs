@@ -837,6 +837,124 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 ### To assist you in monitoring your workload performance, FSx for Lustre integrates with Amazon CloudWatch metrics. For more information, see Monitoring Amazon FSx for Lustre in the Amazon FSx for Lustre Users Guide.
 
+## Seamless Access to Data Repositories
+
+## FSx for Lustre appears as a native drive for Amazon Elastic Compute Cloud (Amazon EC2) Linux-based instances and Amazon Elastic Kubernetes Service (Amazon EKS) containers. As a native drive, your applications are able to connect to your FSx for Lustre file system.
+
+## FSx for Lustre natively integrates with your Amazon S3 data repositories. You can read data from your S3 buckets for processing and then output your results to Amazon S3 for low-cost, long-term retention.
+
+## FSx for Lustre supports cloud bursting from your on-premises data repositories. You can import the dataset directly from on premises to FSx for Lustre over AWS Direct Connect or a virtual private network (VPN) connection.
+
+## With native integration, you save time and effort importing your dataset. You also save time exporting your results data from your on-premises storage system for every workload you process.
+
+## Simply and Fully Maganed
+
+## FSx for Lustre is a fully managed AWS storage service. Configuring FSx for Lustre is streamlined using the AWS Management Console. AWS provisions and sets up the servers and storage volumes for your workload. 
+
+
+## In addition, you can choose to run your FSx for Lustre file system using SSD storage or HDD storage to meet your workload requirements. SSD storage is optimized for latency-sensitive workloads or workloads requiring the highest levels of IOPS and throughput. HDD storage is optimized for throughput-focused workloads that aren’t latency-sensitive. For HDD-based file systems, the optional SSD cache improves performance by placing your most frequently read data on SSD automatically. 
+
+## To optimize your storage costs, long-term data is stored in cost-efficient Amazon S3, in on-premises storage, or in HDD-based FSx for Lustre file systems. 
+
+## When using Amazon S3, data is imported into FSx for Lustre as required by the applications. The data is retained in FSx for Lustre for processing in your workload. The number of Amazon S3 PUT and GET requests to load and save your data are minimized, which helps optimize costs.
+
+## You can launch and delete FSx for Lustre file systems in minutes. As a managed service, FSx for Lustre saves you the time and resource expenses when doing it yourself. Delete any file system you are no longer using when your workload is finished to optimize your costs. 
+
+
+## AWS configures the Lustre file system and maintains the Lustre software, removing the complexity and maintenance overhead in managing a Lustre file system implementation.
+
+## With the native integration to Amazon S3 and support for cloud bursting from your on-premises data repositories, FSx for Lustre simplifies moving your data into and out of your workload. AWS manages the movement into and out of Amazon S3 for you.
+
+## Native File System Complaint
+
+## FSx for Lustre is POSIX compliant. The FSx for Lustre file system is integrated into the core of the Linux operating system used as part of the service. Because it is POSIX compliant, the FSx for Lustre works as any file system does with your Linux applications. No changes are required to run your applications natively.
+
+## FSx for Lustre maintains read-after-write close consistency for file sharing for your high-performance computing workloads. File locking support is designed into the Lustre file system and is fully supported in FSx for Lustre.
+
+## Cost Optimized
+
+## FSx for Lustre is optimized for performance and low cost. You can choose between the short-term scratch processing option and the longer-term persistent processing options to optimize your costs.
+
+## In addition, you can choose to run your FSx for Lustre file system using SSD storage or HDD storage to meet your workload requirements. SSD storage is optimized for latency-sensitive workloads or workloads requiring the highest levels of IOPS and throughput. HDD storage is optimized for throughput-focused workloads that aren’t latency-sensitive. For HDD-based file systems, the optional SSD cache improves performance by placing your most frequently read data on SSD automatically. 
+
+## To optimize your storage costs, long-term data is stored in cost-efficient Amazon S3, in on-premises storage, or in HDD-based FSx for Lustre file systems. 
+
+## When using Amazon S3, data is imported into FSx for Lustre as required by the applications. The data is retained in FSx for Lustre for processing in your workload. The number of Amazon S3 PUT and GET requests to load and save your data are minimized, which helps optimize costs.
+
+## You can launch and delete FSx for Lustre file systems in minutes. As a managed service, FSx for Lustre saves you the time and resource expenses when doing it yourself. Delete any file system you are no longer using when your workload is finished to optimize your costs. 
+
+## You pay for only the resources you use. You choose how much storage capacity to deploy to meet the dataset size or performance requirements for your workload. You are charged only for the storage capacity and storage performance you select and the time your file system is deployed.
+
+## Secure and Compliant
+
+## FSx for Lustre is integrated into other AWS services for security and compliance. Your data imported into FSx for Lustre is encrypted. No data is openly accessible from an SSD and HDD if one fails or if directly accessed manually. Likewise, your data in your Amazon S3 bucket is encrypted for protection.
+
+## FSx for Lustre is compliant eligible with the following:-
+
+-   Payment card industry (PCI) data security standards (DSS)
+-   International Organization for Standardization (ISO)
+-   Health Insurance Portability and Accountability Act (HIPAA)
+
+## The systems and software setup used to run the FSx for Lustre service are designed for security. HIPAA compliance is a shared responsibility. Your applications and service security configuration, in addition to the FSx for Lustre service, require certification for compliance.
+
+## You control access to your application using Amazon Virtual Private Cloud (Amazon VPC) security groups. You configure your security groups to allow the access required for only your workload. You configure your VPC to include the resources associated with your workload and allow access from resources in other VPCs, as required.
+
+## You control access using AWS Identity and Access Management (IAM) to set up users, groups, and roles and assign access permissions. IAM access permissions are applied for management and application programming interface (API) access to the FSx for Lustre file system.
+
+## You can monitor and audit API calls using AWS CloudTrail. CloudTrail monitors and logs all API calls to the FSx for Lustre service. You can use these logs for auditing configuration changes and access to the service.
+
+## Amazon FSx for Lustre use cases
+
+## FSx for Lustre provides the performance processing required for compute-intensive workloads across different horizontal and vertical use cases:-
+
+### Horizontal use cases apply across various industries and market segments. These industries have a widespread adoption and ever-increasing demand for more performance to serve increasingly larger number of compute cores. Examples of horizontal use cases include machine learning and high performance computing (HPC) workloads.
+
+### Vertical use cases apply within an industry or market segment. A number of compute-intensive verticals depend on parallel file systems to process workloads. Examples of these workloads include the following:-
+
+-   Life science genomics
+-   Financial models
+-   Industrial design simulation
+-   Media special effects and rendering
+-   Seismic and reservoir exploration
+-   Any other vertical where HPC and machine language are present
+
+
+## These are only some of the use cases for FSx for Lustre:-
+
+## Horizontal - Machine Learning
+
+### Machine learning (ML) use cases include applications of Amazon SageMaker, artificial intelligence (AI) and deep learning, autonomous vehicle simulation, and AI/ML batch processing. 
+
+### Machine learning workloads use massive amounts of training data. These workloads often use shared file storage because multiple compute instances need to process the training datasets concurrently. 
+
+### FSx for Lustre is effective for machine learning workloads. For instance, it provides massive parallel shared file storage with high throughput and consistent low latencies to process the machine learning training datasets. You can use FSx for Lustre to speed up your ML training workloads even when data is stored in Amazon S3.
+
+### FSx for Lustre integrates with SageMaker as a direct data source and simplifies your ML workloads.
+
+## Horizontal - High Performance Computing
+
+### Scientists, researchers, and engineers solve complex compute-intensive problems. They typically require a compute profile that uses clusters of computers to drive maximum CPU processing for specialized workloads. 
+
+### High performance computing (HPC) workloads span across machine learning, oil and gas discovery, pharmaceuticals, financial services, and genomics. HPC workloads need to process massive amounts of data. Multiple compute instances with high levels of throughput must be able to access this data. 
+
+### Amazon FSx for Lustre is ideal for HPC workloads because it provides a file system that’s optimized for the performance and costs of performance-intensive workloads. The file system has access across thousands of Amazon EC2 instances and Amazon EKS containers. 
+
+### If you use AWS Batch to manage your HPC compute resource deployment, you can also use it to manage the FSx for Lustre persistent and scratch file systems. You can use AWS Batch to provision the optimal quantity and type of compute resources dynamically. The type and quantity are based on the volume and specific resource requirements of the batch jobs submitted. AWS Batch plans, schedules, and runs your batch computing workloads across AWS compute services and features, such as Amazon EC2 and Spot Instances. 
+
+### You can use AWS ParallelCluster to create a new Amazon FSx for Lustre file system automatically. Alternatively, you can specify an existing Amazon FSx for Lustre file system to use. You can perform any one of these tasks as part of the cluster creation process. 
+
+### The AWS HPC team regularly uses FSx for Lustre as part of their solution stack to help customers in a wide array of disciplines. Part of the solutions is to remove storage as the performance bottleneck and finish workloads much faster.
+
+## Vertical - Genomics and Life Sciences
+
+### Many FSx for Lustre customers are in the life sciences field. Use cases include genomic sequencing, cancer and tumor research, patient therapies, and artificial intelligence.
+
+### Genomics and life sciences workloads use massive amounts of data points. These workloads often use shared file storage accessed by many compute instances that need to process the datasets concurrently. FSx for Lustre reduces the processing time and scales to meet the application high-throughput demands.
+
+### As an example, numerous firms were seeking the fastest possible advances in COVID-19 vaccinations, therapies, and testing. This search resulted in a high demand of FSx for Lustre for genomic sequencing of the virus. 
+
+
+
 
 
 
