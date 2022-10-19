@@ -120,6 +120,29 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 ##### You estimate that you need at least 400 terabytes (TB) of actual data capacity. The remaining 200 TB above your actual 400 TB of data is allocated for data and snapshot growth.
 
+### Capacity options for AWS Storage services
+
+<img width="264" alt="AWSCore3" src="https://user-images.githubusercontent.com/110538923/196701338-6f746acd-2e30-4f2b-9e01-303700658951.PNG">
+
+-   Billing increments are as small as per second of use. In addition to capacity billing, additional service charges might be incurred for service use. The different billing components are discussed later in this course.
+
+-   Some services, such as Amazon Simple Storage Service (Amazon S3), are based on the amount of storage capacity that you consume. You pay only for the storage capacity that you use.
+
+-   Other services, such as Amazon Elastic Block Store (Amazon EBS), are based on the amount of the capacity that you allocate. For example, when you create a block store of 20 GB, you are allocating 20 GB of capacity for use. With allocated capacity, you pay for the allocated amount of space and not the amount of data you have stored.
+
+-   With Amazon Elastic File System (Amazon EFS), you have the option to use the default setting of consumed storage or provisioned storage. Select the option to meet your use case and application performance requirements.
+
+### Capacity overhead in AWS Cloud
+
+#### You still have to provision more space to accommodate the following elements in AWS.
+
+-   Formatting
+-   File system
+-   Hardware failure protection
+-   Data protection
+-   Operating system overhead
+
+##### However, AWS absorbs and manages the extra capacity requirements. AWS considers the systems and maintenance overhead when determining pricing for the storage service. With AWS Storage, you can focus on your business while AWS takes care of systems and maintenance. 
 
 
 
