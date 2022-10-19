@@ -359,6 +359,38 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 -   Amazon Simple Storage Service (Amazon S3) buckets
 -   VMware workloads on premises and in VMware CloudTM on AWS
 
+### Snapshots
+
+### Native snapshot services are built into most core services. Snapshots create backup copies of your data. Snapshots are stored in a protected part of Amazon S3 as part of the managed service. Storing snapshots on Amazon S3 protects your data with 99.999999999 percent (11 9s) of durability and provides you Regional access and availability.
+
+### Snapshots are incremental copies of the data, which means that only the data that has changed after your most recent snapshot is saved in the next incremental snapshot. Incremental snapshots reduce the time required to create the snapshot. These incremental snapshots save on storage costs by not duplicating previously saved data. Each snapshot contains all of the information for that point in time that is needed to restore your data.
+
+### Replication
+
+### Storage replication is an available built-in feature for some of the core storage services. How replication is implemented varies for each service. Replication increases availability and protects your data by creating additional copies. Replication can be between Availability Zones within an AWS Region or between AWS Regions.
+
+### Disaster Recovery Services
+
+### CloudEndure Disaster Recovery service provides a cost-effective disaster recovery option for your on-premises servers and applications. 
+
+### CloudEndure Disaster Recovery continuously replicates your machines into a low-cost staging area in your target AWS account and preferred Region. Replication also includes operating system, system state configuration, databases, applications, and files. In the case of a disaster, you can instruct CloudEndure Disaster Recovery to automatically launch thousands of your machines in their fully provisioned state in minutes. 
+
+### CloudEndure Disaster Recovery minimizes downtime and data loss by providing fast, reliable recovery of physical, virtual, and cloud-based servers into AWS Cloud, including AWS Regions, AWS GovCloud (US), and AWS Outposts.
+
+## Data protection services
+
+<img width="647" alt="AWSCore12" src="https://user-images.githubusercontent.com/110538923/196741577-6eb0d9ce-79a9-4226-b72b-bcd3f3075388.PNG">
+
+
+## AWS Storage services portfolio
+
+### Now that you have a high-level understanding of what each of the services is, you will learn more about each of the services in more detail later in this series of courses. A view of the standalone services that comprise the AWS Storage portfolio is provided for your review.  
+
+<img width="648" alt="AWSCore13" src="https://user-images.githubusercontent.com/110538923/196742076-70db48e1-b779-44bf-a3e1-dfc3918dfb73.PNG">
+
+
+
+
 
 
 
