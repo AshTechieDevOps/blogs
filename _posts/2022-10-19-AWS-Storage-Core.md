@@ -400,7 +400,6 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 -   How often and how quickly do you need to access your data? AWS offers storage options and pricing tiers for frequently accessed, less frequently accessed, and infrequently accessed data.
 -   Does your data store require high IOPS or throughput? AWS provides categories of storage that are optimized for performance and throughput. Understanding IOPS and throughput requirements will help you provision the right amount of storage and avoid overpaying.
 -   What storage access protocols are required? Pre-existing applications are often developed based on specific operating systems. The operating system can affect the access protocol. For example, Linux-based applications that require file system access usually require NFS. Windows-based applications require SMB as the protocol. 
--   
 -   Frequency of access (online, offline, archival)
 -   Frequency of update (WORM, dynamic)
 -   Availability and durability constraints
@@ -953,9 +952,41 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 ### As an example, numerous firms were seeking the fastest possible advances in COVID-19 vaccinations, therapies, and testing. This search resulted in a high demand of FSx for Lustre for genomic sequencing of the virus. 
 
+## Vertical - Media Processing and Transcoding
 
+### Media processing and transcoding workloads include video rendering, visual effects, and media production. 
 
+### Media data processing workloads have different file access requirements. Some workloads require access to the massive datasets, some require high throughput, and some require high IOPS. You can select HDD-based persistent file system options for throughput workloads or SSD-based file system options for high IOPS workloads.
 
+### FSx for Lustre provides the high performance and low latencies needed for processing, distributing, and analyzing digital media files.
+
+## Vertical - Autonomous Vechicles
+
+### Customers who develop autonomous vehicle (AV) systems often test models to ensure vehicle safety. They test by running simulations and training on massive amounts of vehicle sensor and camera data.
+
+### An AV development workflow involves multiple workloads, including ingest, processing, analytics, labeling, training, and simulation and validation. Often the applications for training and simulation and validation require POSIX-compliant, high-throughput, low-latency file systems. 
+
+### You can use FSx for Lustre to access that data simultaneously from thousands of nodes with high levels of performance. By doing this, you can run simulations at scale and accelerate model development more efficiently.
+
+## Vertical - SAS Grid Computing
+
+### SAS Grid computing distributes SAS computing tasks among multiple computers on a network, all under the control of SAS Grid Manager. In this environment, workloads are distributed across a grid cluster of computers. This workload distribution enables workload balancing, multiple users to distribute workloads to a shared pool of resources, and accelerated processing.
+
+### AWS has worked with SAS for many years. As a result, the use of FSx for Lustre has been advocated and endorsed by SAS for SAS Grid on AWS. 
+
+### Use FSx for Lustre to access your data simultaneously from the shared pool of compute resources with high levels of performance. As a result, you can run SAS Grid at scale.
+
+## Pricing
+
+## The FSx for Lustre managed service offers predictable usage-based pricing. You pay only for the resources you use. No minimum fees are applied or no setup charges are incurred. Costs are calculated by the number of seconds your file system is provisioned:-
+
+-   For scratch FSx for Lustre file systems, you pay for your use of a file system based on the configured storage capacity measured in gigabyte-months (GB-months).
+-   For persistent FSx for Lustre file systems, you pay for your use of a file system based on the configured storage capacity measured in gigabyte-months (GB-months). In addition, you have three tiers of SSD-based performance and four tiers of HDD-based performance to choose from.
+-   Backup pricing is based on the actual backed up data capacity.
+
+### Pricing per GB by performance tier varies by AWS Region. For additional pricing information and current rates, see the Amazon FSx for Lustre Pricing page on the AWS website.
+
+## File storage: Amazon FSx for Windows File Server
 
 
 
