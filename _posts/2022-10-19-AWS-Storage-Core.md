@@ -988,6 +988,94 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 ## File storage: Amazon FSx for Windows File Server
 
+## With Amazon FSx for Windows File Server, you can launch and scale reliable, performant, and secure shared file storage for your applications and users. You can launch highly durable and available file systems that can span multiple Availability Zones. These files systems can be accessed from up to thousands of compute instances using the open standard Server Message Block (SMB) protocol. The service provides a set of administrative and security features, and integrates with Microsoft Active Directory. 
+
+## Amazon FSx for Windows File Server overview
+
+## Amazon FSx for Windows File Server provides fully managed Microsoft Windows file servers, backed by a fully native Windows file system. Amazon FSx for Windows File Server has the features, performance, and compatibility to easily lift and shift enterprise applications to the AWS Cloud.
+
+## To access file storage over a network, FSx for Windows File Server provides native support for Windows file system features and for the SMB protocol. Amazon FSx is optimized for enterprise applications in AWS with native Windows compatibility, enterprise performance and features, and consistent submillisecond latencies.
+
+## With file storage on FSx for Windows File Server, the code, applications, and tools that Windows developers and administrators use can continue to work unchanged. Windows applications and workloads ideal for FSx for Windows File Server include the following:-
+
+-   Business applications
+-   Home directories
+-   Web serving
+-   Content management
+-   Data analytics
+-   Software build setups
+-   Media processing workloads
+
+## Amazon FSx for Windows File Server features
+
+### Build on Windows Server
+
+-   FSx for Windows File Server is built on Windows Server. The service provides a rich set of administrative features that include user file restore, user quotas, and access control lists (ACLs).
+-   With the Windows Server native support for the SMB protocol, Windows-based applications have access to fully compatible shared file storage. You can access SMB file shares from Linux and macOS, any application. You can access the storage regardless of operating system. 
+-   To control user access, Amazon FSx integrates with your on-premises Microsoft Active Directory and with AWS Microsoft Managed AD.
+
+### Broadly Accessible
+
+### By supporting the SMB protocol, FSx for Windows File Server can connect your file system to the following AAWS services or resources:-
+
+-   Amazon Elastic Compute Cloud (Amazon EC2)
+-   Amazon Elastic Container Service (Amazon ECS)
+-   VMware Cloud on AWS
+-   Amazon WorkSpaces
+-   Amazon AppStream 2.0 instances
+
+### FSx for Windows File Server supports all Windows versions, starting from Windows Server 2008 and Windows 7, and current versions of Linux and macOS. 
+
+### FSx for Windows File Server also supports on-premises access through AWS Direct Connect or AWS VPN. It also supports access from multiple virtual private clouds (VPCs), AWS accounts, and AWS Regions by using VPC Peering or AWS Transit Gateway. 
+
+### For frequently accessed file data, Amazon FSx File Gateway provides efficient, low-latency on-premises access with a local cache.
+
+### Fully Managed
+
+-   As a fully managed service, FSx for Windows File Server streamlines the process of launching and scaling reliable, performant, and secure shared file storage in the cloud. In minutes, you can easily create FSx for Windows File Server file systems that span multiple Availability Zones. You can acheive this by using the AWS Management Console, AWS CLI, or AWS SDK. 
+
+-   FSx for Windows File Server sets up and provisions file servers and storage volumes. It can also replicate data, manage failover and failback, and reduce much of the administrative overhead. AWS also manages Windows Server software updates for FSx Windows File Server.
+
+### Performance and Scalability
+
+-   Performance – FSx for Windows File Server is designed to deliver fast, predictable, and consistent performance. Amazon FSx provides multiple GB/s of throughput per file system, hundreds of thousands of IOPS per file system, and consistent submillisecond latencies for file operations. To get the right performance for your workload, you can choose a throughput level for your file system. Then, you can scale this throughput level up or down at any time.
+-   Scale – FSx for Windows File Server provides storage of up to 64 TB per file system. You can use Distributed File System (DFS) namespaces to create shared common namespaces spanning multiple FSx for Windows File Server file systems. Consequently, you can scale out storage and throughput to virtually unlimited levels.
+
+### Security and Compliance
+
+### Encryption – All file system data for FSx for Windows File Server is encrypted automatically at rest and in transit. Encryption of data at rest uses keys managed with AWS Key Management Service (AWS KMS). Data is encrypted automatically before being written to the file system and decrypted automatically as it is read. 
+
+### You can also enforce encryption of data in transit on all connections to your file systems for compliance needs. Amazon FSx automatically encrypts data in transit using SMB Kerberos session keys, when accessed from compute instances that support SMB protocol 3.0 or newer.
+
+### Compliance – FSx for Windows File Server has been assessed to meet global and industry security standards. It complies with the following:-
+
+-   Payment card industry (PCI) data security standards (DSS)
+-   International Organization for Standardization (ISO) 9001, 27001, 27017, and 27018
+-   Security Operations Center (SOC) 1, 2, and 3
+
+### It is also Health Insurance Portability and Accountability Act (HIPAA) eligible. This compliance makes it easier for you to verify our security and meet your own obligations.
+
+### Identity-based authentication – FSx for Windows File Server supports identity-based authentication over SMB through Microsoft Active Directory. When creating your FSx for Windows File Server file system, join it to your Microsoft Active Directory (an AWS Managed Microsoft AD or your self-managed Microsoft Active Directory).
+
+### Your users can then use their existing Active Directory-based user identities to authenticate themselves. They can then access the FSx for Windows File Server ﬁle system and control access to individual ﬁles and folders.
+
+### Access control and monitoring – FSx for Windows File Server supports Windows access control lists (ACLs) for fine-grained file and folder access control. For network-level access control, you can use Amazon Virtual Private Cloud (Amazon VPC) security groups to control access to your FSx for Windows File Server resources. 
+
+### FSx for Windows File Server integrates with AWS Identity and Access Management (IAM). Use IAM to control the actions that your IAM users and groups can take on specific FSx for Windows File Server resources. 
+
+### FSx for Windows File Server integrates with AWS CloudTrail to monitor and log administration actions. Amazon FSx also offers user storage quotas to monitor and control user-level storage consumption.
+
+### Network isolation – You can access your FSx for Windows File Server file system from your Amazon VPCs. You can configure firewall settings and control network access to your FSx for Windows File Server file systems by using Amazon Vircutal Private Cloud (Amazon VPC) security groups and VPC network ACLs.
+
+### File access auditing – FSx for Windows File Server supports auditing user access to your files, folders, and file shares by using Windows Event Logs. Logs are published to Amazon CloudWatch Logs or streamed to Amazon Kinesis Data Firehose. You can then perform the following operations:-
+
+-   View and query logs on CloudWatch Logs
+-   Archive logs in Amazon S3
+-   Trigger Lambda functions to take reactive actions
+-   Perform post-processing actions
+
+### Availablity and Durability
+
 
 
 
