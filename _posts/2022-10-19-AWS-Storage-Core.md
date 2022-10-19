@@ -389,6 +389,85 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 <img width="648" alt="AWSCore13" src="https://user-images.githubusercontent.com/110538923/196742076-70db48e1-b779-44bf-a3e1-dfc3918dfb73.PNG">
 
 
+## Identifying the Right Storage Solution in the Cloud
+
+### The optimal storage solution for a system varies based on the following:-
+
+-   Type of access method (block, file, or object)
+-   Patterns of access (random or sequential)
+-   Required throughput-
+
+-   How often and how quickly do you need to access your data? AWS offers storage options and pricing tiers for frequently accessed, less frequently accessed, and infrequently accessed data.
+-   Does your data store require high IOPS or throughput? AWS provides categories of storage that are optimized for performance and throughput. Understanding IOPS and throughput requirements will help you provision the right amount of storage and avoid overpaying.
+-   What storage access protocols are required? Pre-existing applications are often developed based on specific operating systems. The operating system can affect the access protocol. For example, Linux-based applications that require file system access usually require NFS. Windows-based applications require SMB as the protocol. 
+-   
+-   Frequency of access (online, offline, archival)
+-   Frequency of update (WORM, dynamic)
+-   Availability and durability constraints
+
+### The AWS Well-Architected systems use multiple storage solutions and enable different features to improve performance and use resources efficiently. For additional information about AWS Well-Architected systems.
+
+## Storage characteristics and requirements
+
+### You must understand the different characteristics of your application or workflow that are required to select the services that best fit your workload. Example characteristics are shareable, file size, cache size, access patterns, latency, throughput, and persistence of data. Those characteristics can lead you toward the best storage solution, such as block storage, file storage, or object storage.
+
+### To optimize storage, the first step is to understand the performance profile for each of your workloads. Conduct a performance analysis to measure input/output operations per second (IOPS), throughput, and other variables. Define your storage performance requirements. Identify your workload’s most important storage performance metrics. Use those metrics to set boundaries. Implement improvement strategies as part of a data-driven approach, using benchmarking or load testing. Use this data to identify where your storage solution is or can be constrained. Examine storage and configuration options to improve the solution. 
+
+### AWS storage services are optimized for different storage scenarios. No single data storage option is ideal for all workloads. When evaluating your storage requirements, consider data storage options for each workload separately.
+
+### Determine the expected growth rate for your workload and choose a storage solution that will meet those rates. Object and file storage solutions, such as Amazon S3 and Amazon Elastic File System, enable unlimited storage.
+
+## Questions to help determine storage requirements
+
+### The following questions help you to segment data within each of your workloads and determine your storage requirements:-
+
+-   How often and how quickly do you need to access your data? AWS offers storage options and pricing tiers for frequently accessed, less frequently accessed, and infrequently accessed data.
+-   Does your data store require high IOPS or throughput? AWS provides categories of storage that are optimized for performance and throughput. Understanding IOPS and throughput requirements will help you provision the right amount of storage and avoid overpaying.
+-   What storage access protocols are required? Pre-existing applications are often developed based on specific operating systems. The operating system can affect the access protocol. For example, Linux-based applications that require file system access usually require NFS. Windows-based applications require SMB as the protocol. 
+-   How critical (durable) is your data? Critical or regulated data needs to be retained at almost any expense and tends to be stored for a long time.
+-   How sensitive is your data? Highly sensitive data must be protected from accidental and malicious changes, not only data loss or corruption. Durability, cost, and security are equally important to consider.
+-   How large is your dataset? Knowing the total size of the dataset helps in estimating storage capacity and cost.
+-   How transient is your data? Transient data is short-lived and typically does not require high durability. (Note: Durability refers to average annual expected data loss.) Clickstream and Twitter data are good examples of transient data.
+-   How much are you prepared to pay to store the data? Setting a budget for data storage will inform your decisions about storage options.
+
+## Evaluate available configuration options
+
+### Evaluate the various characteristics and configuration options and how they relate to storage. Understand where and how to use the following elements to optimize storage space and performance for your workload:-
+
+-   Provisioned IOPS
+-   Solid state drives (SSD)
+-   Hard disk drives (HDD)
+-   Object storage
+-   Archival storage
+-   Ephemeral (temporary) storage 
+
+## Determine storage characteristics
+
+### When you evaluate a storage solution, determine the available storage characteristics, such as the following:-
+
+-   Ability to share the storage
+-   Ideal file size and maximum file size
+-   Storage cache size
+-   Average or expected latency
+-   Maximum throughput
+-   Maximum IOPS
+-   Persistence of data
+
+#### Then match your requirements to the AWS service that best fits your needs.
+
+## Make decisions based on access patterns and metrics
+
+### Choose storage systems based on your workload's access patterns. Configure them by determining how the workload accesses data. You can sometimes increase storage efficiency or increase a performance metric by choosing a different storage type. Configure the storage options you choose to match your data access patterns. 
+
+-   Optimize your storage usage and access patterns – Choose storage systems based on your workload's access patterns and the characteristics of the available storage options. Determine the best place to store data so that you can meet your requirements while reducing overhead. Use performance optimizations and access patterns when configuring and interacting with data based on the characteristics of your storage (for example, striping volumes or partitioning data).
+-   Select appropriate metrics for storage options – Ensure that you select the appropriate storage metrics for the workload. Each storage option offers various metrics to track how your workload performs over time. Make sure that you are measuring against any storage metrics indicating peak performance and trends. For storage systems that are fixed sized, such as Amazon Elastic Block Store (Amazon EBS) or Amazon FSx, ensure that you are monitoring the amount of storage used against the overall storage size. Create automation when possible to increase the storage size when reaching a threshold.
+-   Monitor metrics – Amazon CloudWatch can collect metrics across the resources in your architecture. You can also collect and publish custom metrics to surface business metrics or derived metrics. Use CloudWatch or third-party solutions to set alarms that indicate when thresholds are breached.
+
+### For additional information, see Storage Architecture Selection in the AWS Well-Architected Framework.
+
+## Block Storage: Amazon EBS
+
+
 
 
 
