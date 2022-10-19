@@ -467,6 +467,82 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 ## Block Storage: Amazon EBS
 
+### The AWS block storage portfolio consists of two types of block storage services: Amazon Elastic Compute Cloud (Amazon EC2) instance storage and Amazon Elastic Block Store (Amazon EBS). Amazon EBS also includes an integrated snapshot service. Amazon EBS is the primary block storage service. 
+
+### Amazon FSx for NetApp ONTAP also offers block storage services over an iSCSI access protocol. These block services use NetApp's application programming interface (API) calls and management interface. For customer's seeking an integrated NetApp approach, block storage is available as part of the Amazon FSx service.
+
+## Amazon EC2 instance store
+
+### An instance store provides temporary (ephemeral) block-level storage for your instance. This storage is located on disks that are physically attached to the host computer where the compute instance is. Instance stores resemble Amazon EBS storage in initial configuration options. However, their architecture most closely resembles direct attached disk drives. An instance store provides submillisecond latencies between the EC2 instance and the storage.
+
+### Only specific Amazon EC2 instance types support instance stores. The available storage type is directly associated to the EC2 instance type. An instance store consists of one or more instance store volumes exposed as block devices. The size of an instance store and the number of devices available vary by instance type. 
+
+### Instance store is ideal for the following use cases:-
+
+-   Temporary storage of information that changes frequently, such as buffers, caches, scratch data, and other temporary content
+-   Data that is replicated across a fleet of instances, such as a load-balanced pool of web servers
+
+### Instances stores are not recommended for most block storage workloads.
+
+### As ephemeral storage, instance stores are not replicated or spread across multiple devices to improve durability and availability. An instance store is nonpersistent and is terminated when the associated EC2 instance is terminated.
+
+## Instance store lifetime
+
+### The data in an instance store persists only during the lifetime of its associated EC2 instance. If an instance reboots (intentionally or unintentionally), data in the instance store persists. However, data in the instance store is lost under any of the following circumstances:-
+
+-   The underlying disk drive fails
+-   The instance stops
+-   The instance hibernates
+-   The instance terminates
+
+### Therefore, do not rely on an instance store for valuable, long-term data. Instead, use more durable data storage, such as Amazon EBS, for your block storage requirements.
+
+## Amazon EBS overview
+
+### Amazon EBS is an easy-to-use, high performance, block storage service. It is designed for use with Amazon EC2 compute instances for both throughput and transaction-intensive workloads at any scale. 
+
+### AWS recommends Amazon EBS for data that must be quickly accessible and requires long-term persistence. EBS volumes are well suited for use as the primary storage for file systems, databases, or any applications that require fine granular updates and access to raw, unformatted, block-level storage. Amazon EBS is well suited to both database-style applications that rely on random reads and writes and to throughput-intensive applications that perform long, sequential reads and writes.
+
+### EBS volumes behave like raw, unformatted block devices. You can mount these block devices as EBS volumes on your EC2 instances. EBS volumes that are attached to an EC2 instance are exposed as raw block storage volumes that persist independently from the life of the instance. You can create a file system on top of these volumes or use them in any way you would use a block device (such as a hard drive). You can dynamically change the configuration of a volume attached to an EC2 instance, unlike traditional disk drives that come in fixed sizes.
+
+### You can choose from different EBS volume types to balance optimal price and performance. You can achieve single-digit millisecond latency for high-performance database workloads, such as SAP HANA, or gigabyte-per-second throughput for large, sequential workloads such as Apache Hadoop. You can change EBS volume types, tune performance, or increase volume size without disrupting your critical applications. Amazon EBS provides you cost-effective block storage when you need it.
+
+### Designed for mission-critical systems, EBS volumes are replicated within an AWS Availability Zone and can scale to store petabytes of data. Also, you can use EBS snapshots with automated lifecycle policies to back up your volumes in Amazon Simple Storage Service (Amazon S3). You can do this  while ensuring geographic protection of your data and business continuity.
+
+### With Amazon EBS, you pay only for the storage and resources that you provision.
+
+## Amazon EBS features
+
+### Single Availability Zone
+
+### You create an EBS volume in a specific Availability Zone, and then attach it to an EC2 instance in that same Availability Zone. The proximity of your Amazon EBS volume to your Amazon EC2 instance provides low latency and high-performance block storage for your workload.
+
+### To make a volume available outside of the Availability Zone, you can create a snapshot and restore that snapshot to a new volume anywhere in the same AWS Region. You can also copy snapshots to other AWS Regions and then restore them to new volumes there. Snapshots make it easier to use multiple AWS Regions for geographical expansion, data center migration, and disaster recovery.
+
+### Persistent
+
+### Amazon EBS volumes are durable and persistent by default. Your EBS volume survives even if your EC2 instance is terminated. Your data is preserved for your future use and persists until you decide to delete it. Root EBS volumes created with an EC2 instance are terminated with the instance by default. However, you can modify the volume to be persistent.
+
+### EBS volumes are managed independently from the Amazon EC2 instances to which they are attached. You can detach an existing EBS volume from an EC2 instance and reattach it to a different EC2 instance. This provides you the ability to change EC2 instance types to meet your performance requirements and optimize your Amazon EC2 costs. 
+
+### Volume Types
+
+### Amazon EBS provides multiple volume types that you can use to optimize storage performance and cost for a broad range of applications. These volume types are divided into two major categories: SSD-backed storage for transactional workloads, such as databases, virtual desktops, and boot volumes, and HDD-backed storage for throughput-intensive workloads, such as MapReduce and log processing.
+
+### SSD-based volumes include two levels to meet your application requirements: General Purpose SSD volumes and Provisioned IOPS SSD volumes:-
+
+-   General Purpose SSD volumes (gp3 and gp2) balance price and performance for transactional applications, including virtual desktops, test and development environments, and interactive gaming applications.
+-   Provisioned IOPS SSD volumes are the highest performance EBS volumes (io2 and io1) for your most demanding transactional applications, including SAP HANA, Microsoft SQL Server, and IBM DB2.
+
+### HDD-based volumes include Throughput Optimized HDD (st1) for frequently accessed, throughput-intensive workloads and the lowest cost Cold HDD (sc1) for less frequently accessed data.
+
+### You can choose the volume type that best meets your application and use case requirements. You can change from one volume type to another.
+
+
+
+
+
+
 
 
 
