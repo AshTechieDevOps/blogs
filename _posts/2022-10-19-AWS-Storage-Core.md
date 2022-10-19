@@ -1,4 +1,6 @@
-# On-Premises Storage versus AWS Cloud Storage
+# AWS Storage Core
+
+## On-Premises Storage versus AWS Cloud Storage
 
 For many organizations, moving to the cloud starts with an assessment of their existing on-premises storage infrastructure. Organizations that take the time to identify where and how their data is stored, have a head start in moving their existing workloads to the AWS Cloud. As you explore the available AWS Storage services, you can compare the storage service offerings to your on-premises storage infrastructure. 
 
