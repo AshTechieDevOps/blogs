@@ -669,6 +669,140 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 ### Fully Managed
 
+### Amazon EFS is a fully managed service providing NFS shared file system storage for Linux workloads. Amazon EFS makes it simple to create and configure file systems. You don't have to worry about managing file servers or storage, updating hardware, configuring software, or performing backups. In seconds, you can create a fully managed file system by using the AWS Management Console, the AWS CLI, or an AWS SDK.
+
+### Highly availability and durability
+
+### Amazon EFS is designed to be highly available and is designed for 99.999999999 percent (11 9s) durability. By default, every Amazon EFS file system object (directory, file, and link) is redundantly stored across multiple Availability Zones for file systems using Standard storage classes. 
+
+### A file system using Standard storage classes can be accessed concurrently from all Availability Zones in the Region where it is located. This means that you can architect your application to fail over from one Availability Zone to other Availability Zones in the Region to ensure the highest level of application availability. Mount targets are designed to be highly available within an Availability Zone for all Amazon EFS storage classes.
+
+### If you select Amazon EFS One Zone storage class, your data is redundantly stored within a Single-AZ. Amazon EFS is designed to sustain concurrent device failures by quickly detecting and repairing any lost redundancy. 
+
+### Storage Classes and Lifecycle Management
+
+## Amazon EFS offers Standard and One Zone storage classes for both frequently accessed and infrequently accessed files. The Amazon EFS Standard-IA and Amazon EFS One Zone-IA storage classes are cost-optimized for files accessed less frequently. 
+
+## You can start saving on your storage costs by enabling EFS lifecycle management for your file system and choosing an age-off policy of 7,14, 30, 60, or 90 days. With EFS lifecycle management policies enabled, files automatically move from Amazon EFS Standard storage to EFS Standard-IA storage, or from Amazon EFS One Zone storage to EFS One Zone-IA storage. Lifecycle management reduces storage costs by up to 92 percent.
+
+## Using the industry accepted estimate that 20 percent of data is actively used and 80 percent is infrequently accessed, you can store your files on Amazon EFS at a cost-effective reduced price. 
+
+## Amazon EFS transparently serves files from both frequently accessed and infrequent access storage classes from a common file system namespace. Therefore, you don't have to worry about which of your files are actively used and which are infrequently accessed.
+
+## Security and Compliance
+
+## You can control network access to your file systems by using Amazon Virtual Private Cloud (Amazon VPC) security group rules. You can also control application access to your file systems by using AWS Identity and Access Management (IAM) policies and Amazon EFS access points. Amazon EFS satisfies many eligibility and compliance requirements to help you meet your regulatory needs.
+
+## Scalable Performance
+
+## Amazon EFS is designed to provide the throughput, IOPS, and low latency needed for a broad range of workloads. Throughput and IOPS scale as a file system grows. Throughput and IOPScan burst to higher throughput levels for short periods of time to support the unpredictable performance needs of file workloads. For the most demanding workloads, Amazon EFS can support performance over 10 GB/sec and over 500,000 IOPS.
+
+## Shared File Systems with NFS v4.0 and v4.1 Support
+
+## Amazon EFS provides secure access for thousands of connections for Amazon EC2 instances, AWS container and serverless compute services, and on-premises servers. The service uses a traditional file permissions model, file locking, and hierarchical directory structure using the NFSv4 protocol. Amazon EC2 instances can access your file system across Availability Zones and Regions. By contrast, on-premises servers can access file systems using AWS Direct Connect or AWS Virtual Private Network (AWS VPN).
+
+## Performance Modes
+
+## Amazon EFS is designed to provide the throughput, IOPS, and low latency needed for a broad range of workloads and offers two performance modes: General Purpose and Max I/O:-
+
+-   General Purpose provides the lowest latency per file system operation and can achieve this for random or sequential I/O patterns. 
+-   Max I/O can scale to higher levels of aggregate throughput and operations per second. It is ideal for highly parallelized applications that can scale out to thousands of Amazon EC2 instances. Max I/O performance mode is available only on Amazon EFS file systems using Standard storage classes.
+
+## Throughput Modes
+
+## Amazon EFS offers two throughput modes: Bursting and Provisioned. The throughput mode helps determine the overall throughput a file system can achieve:-
+
+-   With Bursting Throughput, the throughput scales with the size of the file system. Throughput bursts dynamically as needed to support the spiky nature of many file-based workloads.
+-   Provisioned Throughput is designed to support applications that require higher dedicated throughput than the default Bursting mode. You can configure the throughput independently of the amount of data stored on the file system.
+
+## Elastic and Scalable
+
+## With Amazon EFS, storage capacity is elastic, growing and shrinking automatically as you add and remove files. With elastic capacity, no provisioning is necessary. You are billed for only what you use. 
+
+## Amazon EFS is designed to be highly scalable both in storage capacity and throughput performance. It can grow to petabyte scale and allows massively parallel access from Amazon EC2 instances to your data. With Amazon EFS, throughput and IOPS scale as a file system grows, and file operations are delivered with consistent, low latencies.
+
+## Encryption
+
+## Amazon EFS offers encryption for data at rest and in transit, providing a comprehensive encryption solution to secure both your stored data and data in transit. 
+
+## Data at rest is transparently encrypted by using encryption keys managed by the AWS Key Management Service (AWS KMS). This management removes the need to build and maintain a key management infrastructure. 
+
+## Encryption of data in transit uses open-standard Transport Layer Security (TLS) to secure network traffic without having to modify your applications. 
+
+## Containers and Serverless File Storage
+
+## Amazon EFS integrates with AWS containers and serverless compute services that require shared storage for latency-sensitive and IOPS-heavy workloads at any scale.
+
+## Amazon EFS provides applications running on Amazon ECS, Amazon EKS, AWS Fargate, and AWS Lambda, access to shared file systems for stateful workloads.
+
+## Data Transfer and Backup
+
+-   AWS DataSync – AWS DataSync is a managed data transfer service. Use this service to move data between on-premises storage and Amazon EFS. 
+-   AWS Backup – AWS Backup is a fully managed backup service. Use this service to manage and automate backups of your Amazon EFS file systems centrally. AWS Backup reduces the need for costly, custom solutions and manual processes. The service goes beyond backing up Amazon EFS and centralizes the backup of data across other AWS services in the cloud and on premises. 
+-   AWS Transfer Family – AWS Transfer Family provides fully managed support for file transfers directly into and out of Amazon EFS. AWS Transfer Family supports Secure File Transfer Protocol (SFTP), File Transfer Protocol over SSL (FTPS), and File Transfer Protocol (FTP).
+
+## Amazon EFS use cases
+
+## The functionality and available performance options make Amazon EFS well suited to support a broad spectrum of use cases, from home directories to business-critical applications.
+
+## Expand each section to to learn more about common Amazon EFS use cases. Select the + symbol next to each category.
+
+## Containers and Serverless Persistent File Storage
+
+## Using Amazon EFS, you can persist data and state from your containers and serverless functions. This capability provides cloud-native shared files that are high performance, fully managed, elastic, highly available, and scalable. 
+
+## These same attributes are shared by Amazon ECS, Amazon EKS, AWS Fargate, and AWS Lambda. Consequently, developers don’t need to design for these features. The services are ready for modern application development with data persistence. 
+
+## Amazon EFS allows data to be persisted separately from compute, and enables applications to have availability and durability across Availability Zones. Amazon EFS provides a shared persistence layer that allows stateful applications to elastically scale up and down, such as for the following:-
+
+-   DevOps
+-   Web serving
+-   Web content systems
+-   Media processing
+-   Machine learning
+-   Analytics
+-   Search index
+-   Stateful microservices applications
+
+## Move to Managed File Systems
+
+## Amazon EFS provides the scalability, elasticity, availability, and durability to be the file store for enterprise applications and applications delivered as a service. Its standard file system interface, file system permissions, and directory hierarchy make it easy to do the following:-
+
+-   Migrate enterprise applications from on premises to the AWS Cloud
+-   Build new applications 
+
+## Move your business critical, Linux-based applications to managed file systems with Amazon EFS, while lowering your total cost of ownership (TCO).
+
+## Analytics and Machine Learning
+
+## Amazon EFS provides the ease of use, scalability, performance, and consistency needed for machine learning and big data analytics workloads. Data scientists can use Amazon EFS to create personalized environments. These environments can include home directories storing notebook files, training data, and model artifacts. Amazon SageMaker integrates with Amazon EFS for training jobs, allowing data scientists to iterate quickly.
+
+## Web Serving and Content Management
+
+## Amazon EFS provides a durable, high-throughput file system for content management systems and web serving applications that store and serve information for a range of applications. Examples of applications include websites, online publications, and archives. Amazon EFS adheres to the expected file system directory structure, file naming conventions, and permissions that web developers are accustomed to. Therefore, it can easily integrate with web applications.
+
+## Application Testing and Development
+
+## Amazon EFS provides your development environments a common storage repository in which you can share code and other files in a secure and organized way. You can provision, duplicate, scale, or archive your test, development, and production environments with a few steps. Consequently, your organization can be more agile and responsive to customer needs.
+
+## Media and Entertainment
+
+## Media workflows often depend on shared storage to manipulate large files. Example workflows include video editing, studio production, broadcast processing, sound design, and rendering. 
+
+## Amazon EFS provides a strong data consistency model with high throughput and shared file access. This consistency model cuts the time it takes to perform these jobs and consolidate multiple local file repositories into a single location for all users.
+
+## Database Backups
+
+## Amazon EFS presents a standard file system that you can mount with NFSv4 from database servers. This provides an ideal platform to create portable database backups using native application tools or enterprise backup applications. Your company might want to take advantage of the flexibility of storing database backups in the cloud for temporary protection during updates or for development and testing.
+
+## Pricing
+
+## With Amazon EFS, you pay only for the resources that you use. No minimum fee and no set-up charges are incurred. You pay only for the storage you use for read and write access to data stored in Infrequent Access storage classes and any provisioned throughput. Amazon EFS pricing varies based on the AWS Region where it resides and the storage class. Additional charges apply for Provisioned Throughput.
+
+## For additional information about Amazon EFS pricing, see the Amazon EFS Pricing page on the AWS website.
+
+## File storage: Amazon FSx for Lustre
+
 
 
 
