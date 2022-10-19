@@ -222,6 +222,17 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 #### AWS uses Amazon S3 as cost effective storage to store snapshots and backups of data stored in other core storage services such as Amazon EBS and Amazon EFS.
 
+### Core AWS Storage services 
+
+<img width="649" alt="AWSCore6" src="https://user-images.githubusercontent.com/110538923/196713543-bd5f8753-9411-4544-88e9-ba45fe02cab5.PNG">
+
+### Edge and hybrid cloud storage services
+
+<img width="646" alt="AWSCore7" src="https://user-images.githubusercontent.com/110538923/196713748-c3d520b3-7f4b-4440-9a63-92f4b2667586.PNG">
+
+
+
+
 
 
 
