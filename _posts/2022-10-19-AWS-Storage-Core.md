@@ -803,6 +803,42 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 ## File storage: Amazon FSx for Lustre
 
+## Amazon FSx for Lustre streamlines the launching and running of high-performance Lustre file systems. Use FSx for Lustre for workloads where speed matters, such as machine learning, high performance computing (HPC), video processing, and financial modeling.
+
+## Amazon FSx for Lustre
+
+## FSx for Lustre is a managed storage service developed on the open-source, high-performance Lustre file system. 
+
+## The open-source Lustre file system is designed for compute-intensive applications that require a fast storage system capable of meeting throughput requirements. It is also designed to meet input/output operations per second (IOPS) requirements at scale. FSx for Lustre was built to process large datasets quickly and cost-effectively and scale to meet growing demands. An FSx for Lustre file system is capable of delivering hundreds of gibibytes (GiB) per second of throughput and millions of IOPS.
+
+## With FSx for Lustre, you can use the Lustre file system for any workload where speed matters. You do not have the traditional complexity of setting up and managing the Lustre storage system on premises. With FSx for Lustre, you can start your high-performance file system in minutes without the capital investment and operational management expense. 
+
+## Amazon FSx for Lustre is POSIX-compliant, so you can use your current Linux-based applications without having to make any changes. Amazon FSx for Lustre provides a native file system interface and works as any file system does with your Linux operating system. It also provides read-after-write consistency and supports file locking.
+
+## You can integrate FSx for Lustre with Amazon Simple Storage Service (Amazon S3) to process datasets with the FSx for Lustre file system. When linked to an S3 bucket, an FSx for Lustre file system transparently presents S3 objects as files and allows you to write changed data back to Amazon S3.
+
+## With FSx for Lustre, you can scale your compute resources to meet your high-performance compute workload demands. You can scale from hundreds to tens of thousands of CPU cores as your compute processing requires. You can also scale FSx for Lustre to meet your storage capacity and performance requirements.
+
+## Amazon FSx for Lustre features
+
+## High, Scalable Performance
+
+### FSx for Lustre scales using the parallel Lustre file system. The parallel file system adds storage capacity and increases performance linearly as you scale. You can deploy capacity to support hundreds of gibibytes (GiB) per second throughput and millions of IOPS at the same time while maintaining sub-millisecond latencies.
+
+### FSx for Lustre deploys a combination of large memory and storage drive technologies to provide the Lustre file system services for your workloads. The large memory provides the fastest access to optimize performance. 
+
+### FSx for Lustre is deployed using solid state drive (SSD) drives to provide high performance for management operations and serving metadata to your workloads. You can choose between SSD storage or hard disk drive (HDD) storage used to serve data. You choose the baseline throughput performance you need to meet your workload requirements and optimize costs.
+
+### With the built-in Lustre file locking, you can connect tens of thousands of CPU cores to the same storage resources and simultaneously access data as needed by your applications.
+
+### FSx for Lustre provides virtually unlimited resources for your workloads. You can scale to the size you want without the capital expenditures or worrying about expanding your data center footprint. 
+
+### You need only to select the storage capacity and the performance required for your workload.
+
+### To assist you in monitoring your workload performance, FSx for Lustre integrates with Amazon CloudWatch metrics. For more information, see Monitoring Amazon FSx for Lustre in the Amazon FSx for Lustre Users Guide.
+
+
+
 
 
 
