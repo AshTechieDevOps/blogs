@@ -538,6 +538,42 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 ### You can choose the volume type that best meets your application and use case requirements. You can change from one volume type to another.
 
+### Elastic Volumes
+
+### Using the Elastic Volumes feature, you can adapt your volumes as the needs of your applications change. Use this feature to increase capacity, tune performance, and change the type of any new or existing current generation volume dynamically, with no downtime or performance impact. You can easily right-size your deployment and adapt to performance changes.
+
+### The Elastic Volumes feature makes it easier to adapt your resources to changing application demands. You can make modifications in the future as your business needs change.
+
+### High Availability and High Durability
+
+### EBS volumes are designed to be highly available, reliable, and durable at no additional charge to you. EBS volume data is replicated across multiple servers in an Availability Zone to prevent the loss of data from the failure of any single component. 
+
+### Amazon EBS volumes are designed to provide 99.8–99.9 percent durability with an annual failure rate (AFR) of 0.1–0.2 percent. Amazon EBS also supports a snapshot feature, which is a good way to take point-in-time backups of your data. 
+
+### Amazon EBS offers a higher durability io2 volume that is designed to provide 99.999 percent durability with an AFR of 0.001 percent. In this case, failure refers to a complete or partial loss of the volume. This makes io2 ideal for business-critical applications, such as SAP HANA, Oracle, Microsoft SQL Server, and IBM DB2, that will benefit from higher uptime. 
+
+### Data Encryption
+
+### You can create your EBS volumes as encrypted volumes to meet a wide range of data-at-rest encryption requirements for regulated/audited data and applications. When you create an encrypted EBS volume and attach it to a supported instance type, data stored at rest on the volume, disk I/O, and snapshots that were created from the volume are all encrypted. The encryption occurs on the servers that host EC2 instances, providing encryption of data in transit from EC2 instances to Amazon EBS storage.
+
+### Native Snapshot Support
+
+### You can create point-in-time snapshots of EBS volumes, which are persisted to Amazon S3. Snapshots protect data for long-term durability. You can use snapshots to restore your data to new volumes, expand the size of a volume, or move volumes across Availability Zones. The same snapshot can be used to instantiate as many volumes as you want. You can copy these snapshots across AWS Regions. You pay for only the storage capacity consumed for your snapshot data.
+
+### Snapshots let you geographically protect your data and achieve business continuity. You can use Amazon Data Lifecycle Manager (Amazon DLM) to automate snapshot management without any additional overhead or cost.
+
+### AWS Backup Support
+
+### AWS Backup supports backing up your EBS volumes. With AWS Backup, you can centralize and automate data protection across multiple Amazon EBS volumes. AWS Backup offers a cost-effective, fully managed, policy-based service that further simplifies data protection at scale. 
+
+### AWS Backup also helps you support your regulatory compliance obligations and meet your business continuity goals.
+
+### Performance Monitoring
+
+Performance metrics, such as bandwidth, throughput, latency, and average queue length, are available through the AWS Management Console. Amazon CloudWatch provides these metrics so that you can monitor the performance of your volumes. You can make sure that you are providing enough performance for your applications and paying only for resources you need.
+
+
+
 
 
 
