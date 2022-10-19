@@ -73,3 +73,57 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 
 ### Cloud storage is a reliable, scalable, and secure place for your data. AWS offers a complete range of services for you to store, access, govern, and analyze your data to reduce costs, increase agility, and accelerate innovation. You don’t have to perform a one-to-one replacement of your on-premises storage (also known as lift and shift). Instead, you can re-platform or re-architect your storage to optimize cost, manageability, and performance based on your applications needs.
+
+### Comparison of storage use: What you pay for
+
+<img width="646" alt="AWSCore1" src="https://user-images.githubusercontent.com/110538923/196687260-3745b101-8035-4e5b-8214-7dbf1bb911cd.PNG">
+
+#### When you acquire new on-premises storage systems or additional storage capacity for your existing systems, you purchase the total raw capacity for the system. You then need to host the system in your data center and maintain the total capacity. 
+
+#### With AWS Storage, you can add new storage services or expand existing services on demand to meet your requirements. AWS hosts and maintains the underlying systems in their data centers. 
+
+#### You can compare the options using the general example between on-premises storage capacity and AWS Storage services capacity. As you explore the remainder of this course, more details are provided for each of the AWS Storage services.
+
+### On-premises storage capacity
+
+<img width="269" alt="AWSCore2" src="https://user-images.githubusercontent.com/110538923/196688290-d28631c3-9c69-4bc9-bf26-3a2b3a1f18bd.PNG">
+
+#### When you purchase on-premises storage, you work backwards from the capacity you need to store your data and provide for growth and performance overhead. You purchase the total raw capacity to meet your requirements and anticipated capacity growth. Because of certain variables, you are required to make forward-looking assumptions to estimate your requirements.
+
+#### In the example, several broad assumptions are applied to perform the calculations for how much storage to acquire. The calculations applied in real life are different for every on-premises system. The calculations can vary significantly based on the manufacturer. The important takeaways from this example is to consider the aspects that reduce the usable capacity and that you pay for the raw capacity.
+
+#### Please read the following to learn about a specific category:-
+
+##### Raw Capacity
+
+-   Using the on-premises storage example, you purchase 1 petabyte (PB) of raw storage capacity. This is what you pay for and what is needed to calculate the operating costs and data center requirements. 
+
+-   The net usable capacity will vary by manufacturer and by individual system.
+
+##### Formatted Capacity
+
+###### Every storage system's capacity is reduced from hardware failure protection overhead, drive formatting, and operating system overhead. The amount varies based on how this is implemented on the system. In the example, this reduces the capacity by 20 percent to 800 TB.
+
+-   Hardware failure protection overhead – Typically known as hardware or software redundant array of independent disks (RAID). The primary purpose is to protect the data if hardware or a drive fails by creating checksum protection for the data. Depending on the protection level, this can amount 15%–50% overhead. For example, RAID 1, drive mirroring, creates mirrored drive pairs (50 percent overhead). RAID 6 uses two drives worth of space to store checksums (15%–25% overhead). You can apply other protection schemes. However, hardware failure protection is part of every system. 
+
+-   Formatting and operating system overhead – Drive capacity is typically represented in unformatted capacity. When formatted by the operating system, the drive size is reduced 1%–5%. The operating system is then added to the system, which further reduces the available capacity.
+
+##### Allocated Capacity
+
+##### The available capacity is further reduced when you account for data protection services, such as snapshots, and add space for performance overhead. In the example, this reduces the capacity by an additional 200 TB–600 TB of allocated capacity. 
+
+-   Snapshots can consume more space than your actual data. Snapshots help you protect against data corruption and accidental deletion.
+
+-   To operate efficiently and increase performance, systems require additional space for operation overhead, especially for write operations. 
+
+##### Actual Data Capacity
+
+##### You estimate that you need at least 400 terabytes (TB) of actual data capacity. The remaining 200 TB above your actual 400 TB of data is allocated for data and snapshot growth.
+
+
+
+
+
+
+
+
