@@ -570,24 +570,41 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 ### Performance Monitoring
 
-Performance metrics, such as bandwidth, throughput, latency, and average queue length, are available through the AWS Management Console. Amazon CloudWatch provides these metrics so that you can monitor the performance of your volumes. You can make sure that you are providing enough performance for your applications and paying only for resources you need.
+### Performance metrics, such as bandwidth, throughput, latency, and average queue length, are available through the AWS Management Console. Amazon CloudWatch provides these metrics so that you can monitor the performance of your volumes. You can make sure that you are providing enough performance for your applications and paying only for resources you need.
 
+## Amazon EBS use cases
 
+### The functionality and available performance options make Amazon EBS a good storage option for many workloads and use cases. In this section, you will learn about the most common use cases for Amazon EBS storage, including enterprise applications, relational databases, nonrelational (NoSQL) databases, big data analytics, and file systems and media workflows.
 
+## Below are the common Amazon EBS use cases:-
 
+<img width="268" alt="AWSCore14" src="https://user-images.githubusercontent.com/110538923/196760784-a09fe6ff-1775-461a-ab60-324d2d13b453.PNG">
 
+<img width="275" alt="AWSCore15" src="https://user-images.githubusercontent.com/110538923/196761560-c1162292-e758-4619-9086-8f4b659eca62.PNG">
 
+<img width="270" alt="AWSCore16" src="https://user-images.githubusercontent.com/110538923/196762133-8ab3f6ee-bc25-4c99-916b-51072fa5d9ca.PNG">
 
+<img width="275" alt="AWSCore17" src="https://user-images.githubusercontent.com/110538923/196762468-892627ad-331a-4efd-8e2b-a78784200c7c.PNG">
 
+<img width="251" alt="AWSCore18" src="https://user-images.githubusercontent.com/110538923/196762747-8c604ade-d6d9-4087-a039-a75df36dcf2c.PNG">
 
+## Lift and shift on-premises applications using Amazon EBS
 
+## Most organizations have on-premises applications burdened with high capital expenses, complex management, scalability challenges, and hardware that needs to be replaced every 3–5 years.
 
+## Maintaining existing on-premises infrastructure results in increased operational burden. This maintenance drains IT budgets for organizations that are already budget and resource strapped. With these on-premises challenges, IT organizations want to move to the cloud and away from the traditional, costly lifecycle of buying, managing, and replacing on-premises hardware, software, services, and networking.
 
+## Most cloud migrations happen in phases to minimize risk and shorten time to production. The most common approach is to lift and shift an application and its data with as few changes as possible to similar services running in the cloud. This provides the fastest time to production. After the application is on AWS, you can modernize and re-architect application elements to take advantage of the cloud services and optimizations that provide the most significant benefits.
 
+## AWS offers lift-and-shift migration by providing automated tools such as AWS Application Migration Service (AWS MGN) and AWS Server Migration Service (AWS SMS).
 
+## Pricing
 
+## With Amazon EBS, you pay only for what you use. Pricing for EBS volumes is based on the volume type, provisioned volume size, and the provisioned IOPS and throughput performance. EBS volume pricing varies based on the Availability Zone where it resides. The pricing for Amazon EBS snapshots is based on the actual amount of storage space that you use.
 
+## For additional information about EBS volume and EBS snapshot pricing, see Amazon Elastic Block Store Pricing page on the AWS website.
 
+## File Storage Overview
 
 
 
