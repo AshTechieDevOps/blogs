@@ -261,6 +261,111 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 #### AWS compute, storage, database, and other services run locally on Outposts. You can access the full range of AWS services available in the Region to build, manage, and scale your on-premises applications using familiar AWS services and tools.
 
+### Hybrid - On-Premises Gateways
+
+#### AWS Storage Gateway connects on-premises users and applications using a software appliance with cloud-based storage. It provides integration between an organization’s on-premises IT environment and the AWS storage infrastructure. You can use Storage Gateway to simplify storage management and reduce costs for key hybrid cloud storage use cases. 
+
+#### Use cases include the following:-
+
+-   Moving backups to the cloud
+-   Using on-premises file shares backed by cloud storage
+-   Providing low-latency access to data in AWS for on-premises applications. Local caching reduces network latency for both read and write activities.
+
+### Storage Gateway offers four different types of gateways: Amazon S3 File Gateway, Amazon FSx File Gateway, Volume Gateway, and Tape Gateway.
+
+-   Amazon S3 File Gateway provides a seamless way to connect to the cloud to store application data files and backup images as durable objects in Amazon S3. Amazon S3 File Gateway offers SMB or NFS-based access to data in Amazon S3 with local caching. 
+-   Amazon FSx File Gateway optimizes on-premises access to fully managed, highly reliable file shares in Amazon FSx for Windows File Server. Customers with unstructured or file data, whether from SMB-based group shares or business applications, might require on-premises access to meet low-latency requirements.
+-   Volume Gateway presents cloud-backed iSCSI block storage volumes to your on-premises applications. Volume Gateway stores and manages on-premises data in Amazon S3 on your behalf and operates in cache mode or stored mode. 
+-   Tape Gateway is used to replace physical tapes on premises with virtual tapes in AWS without changing existing backup workflows. Tape Gateway supports all leading backup applications and caches virtual tapes on premises for low-latency data access.
+
+## Edge and hybrid cloud storage services
+
+<img width="646" alt="AWSCore8" src="https://user-images.githubusercontent.com/110538923/196734766-e177df3a-636f-406a-8983-0f41b12a297b.PNG">
+
+## Data transfer and migration services
+
+<img width="651" alt="AWSCore9" src="https://user-images.githubusercontent.com/110538923/196735104-53fcc4f4-753a-4d4a-8a99-6e9204fb5fd9.PNG">
+
+### Data transfer services are designed to copy or transfer your on-premises data to and from the core AWS Storage services in the AWS Cloud.
+
+### File Transfer Services
+
+### The AWS Transfer Family provides fully managed support for file transfers directly into and out of Amazon S3 or Amazon EFS. AWS Transfer Family includes support for Secure File Transfer Protocol (SFTP), File Transfer Protocol over SSL (FTPS), and File Transfer Protocol (FTP). 
+
+### The AWS Transfer Family helps you to migrate your file transfer workflows to AWS by doing the following so that nothing changes for you or your applications:-
+
+-   Integrating with the specified authentication system
+-   Providing DNS routing with Amazon Route 53
+
+### Data Synchronization and Online Transfer Services
+
+### AWS DataSync is an online data transfer service that simplifies, automates, and accelerates moving data between on-premises storage systems and AWS Storage services and between AWS Storage services. You can use DataSync for the following operations:-
+
+-   Migrate active datasets to AWS
+-   Archive data to free up on-premises storage capacity
+-   Replicate data to AWS for business continuity
+-   Transfer data to the cloud for analysis and processing
+
+### DataSync can copy data between the following resources or services:-
+
+-   Network File System (NFS) shares
+-   SMB shares
+-   Self-managed object storage
+-   AWS Snowcone
+-   Amazon S3 buckets
+-   Amazon EFS file systems
+-   Amazon FSx for Windows File Server file systems
+
+### Offline Data Transfer and Migration Services
+
+### Offline data transfers are performed using AWS Snow Family devices. The AWS Snow Family helps customers who need to run operations in austere, non-datacenter environments, and in locations where there’s lack of consistent network connectivity.
+
+### The Snow Family, comprised of AWS Snowcone, AWS Snowball, and AWS Snowmobile, offers several physical devices and capacity points, most with built-in computing capabilities. These services help to physically transport up to exabytes of data into and out of AWS.
+
+### AWS owns and manages Snow Family devices. The devices integrate with AWS security, monitoring, storage management, and computing capabilities.
+
+### Migration Services
+
+### AWS Application Migration Service (AWS MGN), which includes CloudEndure Migration, is a highly automated lift-and-shift (rehost) solution. AWS MGN simplifies, expedites, and reduces the cost of migrating applications to the AWS Cloud, AWS GovCloud (US), and AWS Outposts.
+
+### You can use AWS MGN or CloudEndure Migration by itself to quickly lift-and-shift physical, virtual, or cloud servers without compatibility issues, performance impact, or long cutover windows. AWS MGN continuously replicates your source servers to your AWS account. When you’re ready to migrate, it automatically converts and launches your servers on AWS.
+
+## AWS data transfer and migration services
+
+<img width="654" alt="AWSCore10" src="https://user-images.githubusercontent.com/110538923/196737936-15986056-c517-4e67-b588-a672ed398a12.PNG">
+
+## Data protection services
+
+<img width="652" alt="AWSCore11" src="https://user-images.githubusercontent.com/110538923/196738262-8a408624-8319-4853-96cd-0caf51b2cbe7.PNG">
+
+### Data protection services provide optional services to meet your data redundancy and disaster requirement needs. Some services are standalone service options and some are integrated into the core storage services. 
+
+## Backup and Archive
+
+### Using AWS Backup, you can centralize and automate data protection across AWS services. AWS Backup offers a cost-effective, fully managed, policy-based service that further simplifies data protection at scale. AWS Backup also helps you support your regulatory compliance or business policies for data protection.
+
+### When you combine AWS Organizations with AWS Backup, you can deploy data protection policies centrally. Centrally deploy policies to configure, manage, and govern your backup activity across your company’s AWS accounts and resources. Resources include the following:-
+
+-   Amazon EC2 instances
+-   Amazon EBS volumes
+-   Amazon RDS databases (including Amazon Aurora clusters)
+-   Amazon DynamoDB tables
+-   Amazon Neptune databases
+-   Amazon DocumentDB (with MongoDB compatibility) databases
+-   Amazon EFS
+-   Amazon FSx for Lustre
+-   Amazon FSx for Windows File Server
+-   AWS Storage Gateway volumes
+-   Amazon Simple Storage Service (Amazon S3) buckets
+-   VMware workloads on premises and in VMware CloudTM on AWS
+
+
+
+
+
+
+
+
 
 
 
