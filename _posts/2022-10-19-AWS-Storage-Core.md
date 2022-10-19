@@ -606,6 +606,42 @@ Moving storage workloads to the cloud has been one of the main ways chief inform
 
 ## File Storage Overview
 
+## AWS currently offers three different managed file storage services to meet your application, workflow, and use-case requirements. In addition, you can use Amazon EBS to create self-managed file systems.
+
+<img width="639" alt="AWSCore19" src="https://user-images.githubusercontent.com/110538923/196768874-4d07086a-4c36-4463-a792-40580197af87.PNG">
+
+## For running file systems workflows on AWS, you can select from Amazon Elastic File System (Amazon EFS), Amazon FSx for Lustre, Amazon FSx for NetApp ONTAP, Amazon FSx for OpenZFS, Amazon FSx for Windows File Server, or you can build your own high-performance network file system designed for your workload protocol.
+
+### Amazon EFS is a scalable, elastic, cloud-native file system for Linux. Amazon EFS supports the Network File System (NFS) protocol.
+
+### Amazon FSx for Lustre is an AWS fully managed parallel file system built on Lustre for high performance computing (HPC) workloads. FSx for Lustre supports the Lustre POSIX-compliant protocol.
+
+### Amazon FSx for NetApp ONTAP is the NetApp ONTAP operating system implemented as a fully managed service. FSx for NetApp ONTAP support iSCSI for block storage, NFS protocol for POSIX-compliant access, and SMB protocol for Windows-compatible access.
+
+### Amazon FSx for OpenZFS is an AWS fully managed implementation of the Open Zettabyte File System (ZFS). FSx for OpenZFS supports NFS and SMB protocols for a wide range of application implementations. 
+
+### Note: SMB protocol access is not support at initial service launch.
+
+### Amazon FSx for Windows File Server is an AWS fully managed file system for Windows environments. FSx for Windows File Server supports the Server Message Block (SMB) protocol.
+
+### Using Amazon EC2 and Amazon EBS, you can quickly create your own high-performance block storage for building your own network file system, including the following protocols and systems:-
+
+-   SMB
+-   NFS
+-   Extents File System (XFS)
+-   General Parallel File System (GPFS)
+-   Zettabyte File System (ZFS)
+-   Other customer files systems
+
+### You can choose the file system that you need to optimize your applications or workflows. You can bring your media workflows and use their native file system running on EC2 instances and store your data on EBS volumes.
+
+<img width="618" alt="AWSCore20" src="https://user-images.githubusercontent.com/110538923/196770214-39149009-2eff-40c0-b4fb-a0069bfbb2ea.PNG">
+
+
+
+
+
+
 
 
 
