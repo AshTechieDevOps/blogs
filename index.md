@@ -10,6 +10,10 @@
 
 ### I do have sound knowledge of Cisco InterSight along with Cisco UCS, Hyperflex, Dell EMC VXRail and other Hyperconverged, Converged & Bare Metal Server Hardware. I have major expertise in Solution Designing of Datacenter and Network Virtualization using VMware vSphere, On-Premises to On-Premises and On-Premises to Cloud Migration & Transformation, Automated & Scripted Migration. I have also taken care of a variety of Greenfield and Brownfield Infrastructure Design, Management, and Security Compliance requirements.
 
+# Certifications that I have achieved.
+
+<img width="928" alt="MyCertLogosTill28Oct" src="https://user-images.githubusercontent.com/110538923/198579288-fb21c151-1574-433e-9427-a84f9b1575f8.PNG">
+
 ## Contact Me
 
  **⌨️**  [GitHub](https://github.com/ashtechiedevops/) / [LinkedIn](https://www.linkedin.com/in/ashish-sharma-51b3a19/) /  [Twitter](https://twitter.com/ashtechie777/) / [Instagram](https://www.instagram.com/ashtechieworld/)
