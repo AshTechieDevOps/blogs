@@ -12,10 +12,10 @@
 
 # Certifications that I have achieved.
 
-<img width="928" alt="MyCertLogosTill28Oct" src="https://user-images.githubusercontent.com/110538923/198579288-fb21c151-1574-433e-9427-a84f9b1575f8.PNG">
+<img width="912" alt="AshTechieCertLogosTillPresent" src="https://user-images.githubusercontent.com/110538923/198999562-1b2ff6da-2315-4391-93e0-6095f2859e7d.PNG">
 
 ## Contact Me
 
- **⌨️**  [GitHub](https://github.com/ashtechiedevops/) / [LinkedIn](https://www.linkedin.com/in/ashish-sharma-51b3a19/) /  [Twitter](https://twitter.com/ashtechie777/) / [Instagram](https://www.instagram.com/ashtechieworld/)
+ **⌨️**  [YouTube Channel](https://www.youtube.com/channel/UCH7LRlDE5ec_dVJgMIj3LcQ) / [GitHub](https://github.com/ashtechiedevops/) / [LinkedIn](https://www.linkedin.com/in/ashish-sharma-51b3a19/) /  [Twitter](https://twitter.com/ashtechie777/) / [Instagram](https://www.instagram.com/ashtechieworld/)
  
 
