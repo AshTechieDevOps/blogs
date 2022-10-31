@@ -16,6 +16,6 @@
 
 ## Contact Me
 
- **⌨️**  [YouTube Channel](https://www.youtube.com/channel/UCH7LRlDE5ec_dVJgMIj3LcQ) / [GitHub](https://github.com/ashtechiedevops/) / [LinkedIn](https://www.linkedin.com/in/ashish-sharma-51b3a19/) /  [Twitter](https://twitter.com/ashtechie777/) / [Instagram](https://www.instagram.com/ashtechieworld/)
+ **⌨️**  [AshTechie On YouTube](https://www.youtube.com/channel/UCH7LRlDE5ec_dVJgMIj3LcQ) / [GitHub](https://github.com/ashtechiedevops/) / [LinkedIn](https://www.linkedin.com/in/ashish-sharma-51b3a19/) /  [Twitter](https://twitter.com/ashtechie777/) / [Instagram](https://www.instagram.com/ashtechieworld/)
  
 
