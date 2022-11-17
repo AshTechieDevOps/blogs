@@ -2,6 +2,10 @@
 
 ![MyBlogsGitHubFB-Banner](https://user-images.githubusercontent.com/110538923/198589080-ff89f217-82fa-447e-9060-36a80bbf1de1.PNG)
 
+  **📨**  sendmail.ashish@gmail.com, ashish@ashtechie.com
+  
+  **⌨️**  [YouTube Channel](https://www.youtube.com/channel/UCH7LRlDE5ec_dVJgMIj3LcQ) / [GitHub](https://github.com/ashtechiedevops/) / [LinkedIn](https://www.linkedin.com/in/ashish-sharma-51b3a19/) / [MyBlogs](https://blogs.ashtechie.com/) / [My Video Tutorials](https://edu.ashtechie.com/) / [Twitter](https://twitter.com/ashtechie777/) / [Instagram](https://www.instagram.com/ashtechieworld/)
+
 ### Hi There <img src="https://user-images.githubusercontent.com/1303154/88677602-1635ba80-d120-11ea-84d8-d263ba5fc3c0.gif" width="28px" alt="hi">
 
 ### I`m Ashish Sharma who brings 20+ Years of Mix & Match Experience of Designing and Architecting Wintel, VMware DCV/NSX/vRO/vRA/vRops, Azure Cloud, Microsoft Cybersecurity, Azure DevOps, AWS, and Google Cloud Solutions offerings. Great amount of Experience of providing level 4 & 5 support to the Team size of 22+ Cloud Solution Architects, SMEs and DevOps Engineers.
@@ -12,10 +16,10 @@
 
 # Certifications that I have achieved.
 
-<img width="912" alt="AshTechieCertLogosTillPresent" src="https://user-images.githubusercontent.com/110538923/198999562-1b2ff6da-2315-4391-93e0-6095f2859e7d.PNG">
+<img width="899" alt="AshTechieCertLogosFinal" src="https://user-images.githubusercontent.com/110538923/202397815-9694a2fa-e734-4411-856f-950ad54d83fc.PNG">
 
 ## Contact Me
 
- **⌨️**  [AshTechie On YouTube](https://www.youtube.com/channel/UCH7LRlDE5ec_dVJgMIj3LcQ) / [GitHub](https://github.com/ashtechiedevops/) / [LinkedIn](https://www.linkedin.com/in/ashish-sharma-51b3a19/) /  [Twitter](https://twitter.com/ashtechie777/) / [Instagram](https://www.instagram.com/ashtechieworld/)
+ **⌨️**  [Twitter](https://twitter.com/ashtechie777/) / [Instagram](https://www.instagram.com/ashtechieworld/)
  
 
